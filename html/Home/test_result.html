@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>十年赢家网</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/evaluating.css">
+</head>
+<body>
+    <div class="result-main test-result" id="result">
+        <script type="text/html" id="result_tpl">
+        <div class="tit">
+           <img src="{{result.headimgurl}}" alt="">
+           <p>{{result.nickname}}</p>
+        </div>
+        <div class="txt-box">
+            <div class="line"></div>
+            <div class="txt">
+                <p><span>能力：</span>{{result.total_score}}</p>
+                <p><span>评价：</span>{{result.comment}}</p>
+                <p><span>类型：</span>{{result.type_describe}}</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="goto-test">
+            <h4>千万股民都后悔，为什么没早做这个测试！</h4>
+            <div class="pic">
+                <img src="images/erweima.jpg" alt="">
+            </div>
+            <p>长按识别二维码公众号，开始测试</p>
+        </div>
+        </script> 
+    </div>
+    
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/LG.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/artTemplate.js"></script>
+    <script>
+        var loacalUrl = new LG.URL(window.location.href);
+        var user_id = loacalUrl.get("uid")?loacalUrl.get("uid"):0;
+        
+        var dataInfo={
+            result:{},
+        }
+        
+        //获取问题信息 
+        dataInfo.result=getRemoteData({user_id:user_id},"/index.php/Home/index/getResult");
+        bindTemplate(dataInfo, "result", "result_tpl");//模版绑定 
+
+    </script>
+    
+</body>
+</html>

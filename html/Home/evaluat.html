@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>十年赢家网</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/evaluating.css">
+</head>
+<body>
+    <div class="evaluat-main">
+        <div class="evaluat-slider" id="test">
+            <script type="text/html" id="test_tpl">
+            <div class="evaluat-item must-known">
+                <div class="tit">
+                    <img src="images/tab_tit.jpg" alt="">
+                </div>
+                <div class="txt">
+                    <p>1，选项没有“对”与“错”之分，最接近自己实际情况的选项为最佳选项；</p>
+                    <p>2，本测评一旦生成测评报告则不能重新测试，请慎重对待每一道题目；</p>
+                    <p>3，本测试不能保证100%相符，仅供参考！</p>
+                    <p>4，生成测评报告后，分享到你的朋友圈，让更多股民参与这有趣的炒股能力测试吧！</p>
+                </div>
+                <div class="btn" id="begin_test">测一测我的炒股能力</div>
+            </div>
+            {{each subject.list as value key}}
+                <div class="evaluat-item test-subject">
+                    <div class="tit">
+                        <p>{{value.name}}</p>
+                    </div>
+                    <dl {{if key+1==subject.pageInfo.num}} class="last-one" {{/if}}>
+                        <dt>{{key+1}}，{{value.name}}{{value.describe}}</dt>
+                        {{each value.options as v k}}
+                        <dd data-id="{{key}}"><p>{{v.type}}，{{v.name}}<span></span></p></dd>
+                        {{/each}} 
+                    </dl>
+                    {{if key>0}}
+                    <div class="btn-box">
+                        <button class="btn last-one">上一题</button>
+                        {{if key+1==subject.pageInfo.num}}
+                        <button class="btn pre-test">重新测试</button>
+                        <button class="btn make-result">生成测试报告</button>
+                        {{/if}}
+                    </div>
+                    {{/if}}  
+                </div>
+            {{/each}} 
+            <div class="evaluat-item test-result" id="result"></div>
+            </script>
+        </div>
+    </div>
+    
+    <script type="text/html" id="result_tpl">
+        <div class="tit">
+            <img src="{{result.headimgurl}}" alt="">
+            <p>{{result.nickname}}</p>
+        </div>
+        <div class="txt-box">
+            <div class="line"></div>
+            <div class="txt">
+                <p><span>能力：</span>{{result.total_score}}</p>
+                <p><span>评价：</span>{{result.comment}}</p>
+                <p><span>类型：</span>{{result.type_describe}}</p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="share-box">
+            <p>分享到朋友圈或转发给好友，可以领取<span>19800元</span>的投资课程门票，并有机会获赠“百年投资经典巅峰作品集”（20本）</p>
+            <div class="pic">
+                <img src="images/books.jpg" alt="">
+            </div>
+            <button class="btn" id="go_share">立即分享</button>
+        </div>
+        <!-- 指引分享蒙版 -->
+        <div class="point-box" style="display: none;">
+            <div class="pic">
+                <img src="images/share-point.png" alt="">
+            </div>
+        </div>
+    </script>
+    
+        
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/LG.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/artTemplate.js"></script>
+    <script src="js/weixin/login.js"></script>
+    
+    <script src="js/ajaxData.js"></script>
+    <script src="js/evaluating.js"></script>
+    
+    <script src="js/weixin/jweixin-1.0.0.js"></script>
+    <script src="js/weixin/zepto.min.js"></script>
+    <script src="js/weixin/operate.js"></script>
+    
+
+</body>
+</html>

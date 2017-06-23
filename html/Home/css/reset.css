@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0; border: 0; outline: none; }
+body{min-width: 318px; font-size: 14px; font-family: "Microsoft YaHei", Arial, Helvetica; color:#000000; }
+ul li,ol li{list-style: none; }
+a{text-decoration: none; }
+.col-r,.right{float: right; }
+.c{clear: both;}
+.img{border:0;}
+input{box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+
+
+
+
+
+
+
+
+
+
+

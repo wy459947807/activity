@@ -1,0 +1,65 @@
+[ 2017-06-20T13:55:23+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0000s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###967020a51470d7a821b5f66d14826204',`user_nicename`='admin',`user_email`='459947807@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-06-20 13:55:23',`create_time`='2017-06-06 01:42:41',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0000s ]
+
+[ 2017-06-20T13:55:46+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Actsubject&a=deleteInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_act_subject` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_act_question` [ RunTime:0.0000s ]
+SQL: DELETE FROM `cmf_act_subject` WHERE `id` IN ('3') [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-20T13:56:24+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Actsubject&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_act_subject` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_act_question` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_act_subject` [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_act_subject` SET `id`='4',`question_id`='4',`name`='你多数是在k线图中的哪一阶段买入股票？',`describe`='',`ctype`='1',`options`='a:3:{i:0;a:3:{s:4:\"type\";s:1:\"A\";s:4:\"name\";s:33:\"股价上涨后回调并止跌时\";s:5:\"score\";s:2:\"10\";}i:1;a:3:{s:4:\"type\";s:1:\"B\";s:4:\"name\";s:30:\"股价已处于下跌过程中\";s:5:\"score\";s:1:\"5\";}i:2;a:3:{s:4:\"type\";s:1:\"C\";s:4:\"name\";s:21:\"股价上涨过程中\";s:5:\"score\";s:1:\"2\";}}',`sort`='1' WHERE `id` = '4' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-20T13:56:35+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Actsubject&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_act_subject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_act_question` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_act_subject` [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_act_subject` SET `id`='5',`question_id`='4',`name`='你多数是在k线图中的哪一个阶段卖出股票？',`describe`='',`ctype`='1',`options`='a:3:{i:0;a:3:{s:4:\"type\";s:1:\"A\";s:4:\"name\";s:36:\"冲高上涨后刚刚开始回调时\";s:5:\"score\";s:2:\"10\";}i:1;a:3:{s:4:\"type\";s:1:\"B\";s:4:\"name\";s:24:\"下跌后再次反弹时\";s:5:\"score\";s:1:\"5\";}i:2;a:3:{s:4:\"type\";s:1:\"C\";s:4:\"name\";s:48:\"股价下跌过程中或者跌破关键点位后\";s:5:\"score\";s:1:\"2\";}}',`sort`='2' WHERE `id` = '5' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+

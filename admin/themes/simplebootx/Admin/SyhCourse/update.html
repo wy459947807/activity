@@ -1,0 +1,91 @@
+<admintpl file="header" />
+</head>
+<body>
+    <php>
+        $statusArray=array(1=>"正常",2=>"停用");
+    </php>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('SyhCourse/index')}">课程列表</a></li>
+            <li  class="active"><a href="{:U('SyhCourse/update')}">添加课程</a></li>
+        </ul>
+        <form action="{:U('SyhCourse/update')}" method="post" class="form" id="dataUpdate" enctype="multipart/form-data">
+            <if  condition="$id neq 0">
+                <input type="hidden"  name="id" value="{$id}"/>
+            </if>
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-bordered">
+
+                        
+                        <tr>
+                            <th width="150">课程标题</th>
+                            <td><input type="text" name="title"  value="{$title}" ></td>
+                        </tr>
+                        
+                        <tr>
+                            <th>课程主题</th>
+                            <td>
+                                <textarea name="subtitle" style="width: 50%; height: 100px;" placeholder="请填写课程简介">{$subtitle}</textarea>
+                            </td>
+                        </tr>
+                        
+
+                        <tr>
+                            <th>日期</th>
+                            <td>
+                                <input type="text" name="start_time" class="js-datetime" value="{$start_time}" style="width: 150px;" autocomplete="off">  至   
+                                <input type="text" name="end_time" class="js-datetime" value="{$end_time}" style="width: 150px;" autocomplete="off">
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <th>地址</th>
+                            <td><input type="text" name="address"  value="{$address}" ></td>
+                        </tr
+                        
+                        <tr>
+                            <th>费用</th>
+                            <td><input type="text" name="charge"  value="{$charge}" style="width: 50px" > /人</td>
+                        </tr>
+   
+                        
+                        <tr>
+                            <th>课程详情</th>
+                            <td>
+                                <div style="width: 60%;">
+                                    <script type="text/plain" id="content"  name="detail">{$detail}</script>
+                                </div>
+                            </td>
+                        </tr>
+    
+
+                    </table>
+                </div>
+
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-primary " type="button" onclick="$('#dataUpdate').submit()">点击提交</button>
+                <a class="btn" href="{:U('SyhCourse/index')}">返回</a>
+            </div>
+        </form>
+    </div>
+    <div id="killers" style="display: none"></div>
+    <script src="__PUBLIC__/js/common.js"></script>  
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/expand/Validform/5.3.2/Validform.min.js"></script>
+    <script src="__PUBLIC__/js/expand/strongWind.js"></script>
+
+    <script>
+        editorcontent = new baidu.editor.ui.Editor();
+        editorcontent.render('content');
+    </script>
+</body>
+</html>

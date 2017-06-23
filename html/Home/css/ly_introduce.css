@@ -1,0 +1,20 @@
+.video-box img{width:100%;display: block;}
+/* 主题样式开始 */
+.ly_introduce{overflow: hidden;min-width: 320px;}
+.ly_introduce .top{height: 225px;padding-top: 32px; background: url(../images/ly_bg_01.jpg) center no-repeat;background-size:100% 100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.ly_introduce .content{overflow: hidden; background: url(../images/ly_bg_02.jpg) center no-repeat;background-size:100% 100%;}
+.ly_introduce .bottom{padding: 20px 0 35px; overflow: hidden; background: url(../images/ly_bg_03.jpg) center no-repeat;background-size:100% 100%;}
+.wp{width: 80%;margin: 0 auto;}
+.ly_introduce .top h2{font-size: 16px;text-align: center;color: #4d3128;padding: 10px 0 12px;}
+.ly_introduce .top h2 span{color: #f44336;}
+.ly_introduce .top input{padding: 0 5px; height: 35px;line-height: 35px;background: #fff;width: 100%;margin-bottom: 10px;}
+.ly_introduce .top .btn_box{text-align: center;padding-top: 10px;}
+.ly_introduce .top .btn{width: 50%;height: 34px;line-height: 34px;color: #fff;font-size: 16px;background:#df3629;border-bottom: 2px solid #8e0d03;border-radius: 5px;}
+.ly_introduce .course_info{width: 80%;margin: 0 auto;}
+.ly_introduce .content{padding-top: 15px;}
+.ly_introduce .course_info h3{font-size: 16px;color:#381f17;text-align: center;margin-bottom: 5px;}
+.ly_introduce .course_info li{margin-bottom: 10px;}
+.ly_introduce .course_info h4{color: #542b24;margin-bottom: 3px;}
+.ly_introduce .course_info li p{color:#1a1a1a;line-height: 1.4em;}
+.ly_introduce .bottom p{color: #000;line-height: 1.4em;}
+

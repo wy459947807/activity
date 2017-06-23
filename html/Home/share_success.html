@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>十年赢家网</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/evaluating.css">
+</head>
+<body>
+    <div class="evaluat-item test-result have-shared">
+        <div class="tit">
+            <img src="images/photo.jpg" alt="">
+            <p>炒股小子</p>
+        </div>
+        <div class="txt-box">
+            <div class="txt">
+                <div class="pic"><img src="images/share_tit.jpg" alt=""></div>
+                <p>请留下您的联系方式，我们将把<span>价值19800元</span>的投资课程门票寄送给您，同时您有机会获赠<span>“百年投资经典巅峰作品集”（20本）</span></p>
+                <p>姓名：<input type="text" name="uname" id="real_name"></p>
+                <p>手机：<input type="text" name="mobile" id="mobile"></p>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="share-box">
+            <div class="pic">
+                <img src="images/books.jpg" alt="">
+            </div>
+            <button class="btn" onclick="submitAnswer()">立即提交</button>
+            <p>您有机会领取<span>19800元</span>的投资课程门票和“百年投资经典巅峰作品集”（20本）</p>
+        </div>
+    </div>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/LG.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/artTemplate.js"></script>
+    <script src="js/layer/layer.js"></script>
+    <script> 
+        var loacalUrl = new LG.URL(window.location.href);
+        var user_id = loacalUrl.get("uid")?loacalUrl.get("uid"):0;
+        
+        //alert(user_id);
+        function submitAnswer(){
+            var data={
+                user_id:user_id,
+                real_name:$("#real_name").val(),
+                mobile:$("#mobile").val()
+            };
+            getRemoteData(data,"/index.php/Home/index/retAnswer");
+            layer.msg('提交成功！');
+            
+            window.location.href ="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0730504f2b4b6c79&redirect_uri=http%3A%2F%2Fm.10jrw.com%2Findex.php%2Fhome%2Fsendbook%2Findex.html&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
+            
+        }
+
+    </script>
+ 
+</body>
+</html>
