@@ -77,8 +77,13 @@ class WechatController extends AppframeController {
         }
     }
     
- 
-    
+    public function setTest(){
+       echo  S("777","666",array('type'=>'file','expire'=>3600)); //设置缓存
+    }
+
+
+
+
     public function sign() {
             $resultArray = array();
             $params=I("post.");

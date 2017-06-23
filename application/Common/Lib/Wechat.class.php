@@ -1181,16 +1181,24 @@ class Wechat
 	 */
 	protected function setCache($cachename,$value,$expired){
 		//TODO: set cache implementation
+                $retInfo= S($cachename,$value,array('type'=>'file','expire'=>$expired)); //设置缓存
+                if($retInfo){
+                    return true;
+                }
 		return false;
 	}
+        
 
-	/**
+        /**
 	 * 获取缓存，按需重载
 	 * @param string $cachename
 	 * @return mixed
 	 */
 	protected function getCache($cachename){
 		//TODO: get cache implementation
+                if(!empty(S($cachename))){
+                    return S($cachename);
+                }
 		return false;
 	}
 

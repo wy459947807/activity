@@ -24,38 +24,38 @@
 .test-subject .make-result{width: 235px; height: 40px;line-height: 40px;font-size: 16px;color: #fff;margin: 0 15px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
 /* 测试结果样式 */
 .test-result{background: url(../images/main_bg2.jpg) center no-repeat;background-size: 100% 100%;position: relative;}
-.test-result .tit{padding-top: 25px;text-align: center;}
+.test-result .tit{padding-top: 20px;text-align: center;}
 .test-result .tit img{width: 50px;height: 50px;border-radius: 50%;}
 .test-result .tit p{font-size: 16px;color: #504539;}
-.test-result .txt-box{margin-top: 40px;}
-.test-result .txt-box .line{height:10px; background: url(../images/line_bg.png) center no-repeat;background-size: 90% 10px;}
-.test-result .txt-box .txt{margin: 0 auto;width: 76%;padding: 10px 0;}
-.test-result .txt-box p{margin-bottom: 18px;font-size: 14px;color: #31271c;position: relative;padding-left: 52px;}
+.test-result .txt-box{margin-top: 30px;}
+.test-result .txt-box .line{height:10px; background: url(../images/line_bg.png) center no-repeat;background-size: 90% 100%;}
+.test-result .txt-box .txt{margin: 0 auto;width: 76%;padding: 6px 0;}
+.test-result .txt-box p{margin-bottom: 10px;font-size: 14px;color: #31271c;position: relative;padding-left: 52px;}
 .test-result .txt-box p:last-child{margin-bottom: 0;}
 .test-result .txt-box p span{font-size: 16px;color: #542b24;position: absolute;left: 0;top: -2px; height: 100%;}
-.test-result .share-box {font-weight: 600;text-align: center; width: 76%;margin: 10px auto 0;font-size: 14px;color: #6f240d;}
+.test-result .share-box {font-weight: 600;text-align: center; width: 76%;margin: 5px auto 0;font-size: 14px;color: #6f240d;}
 .test-result .share-box p{ text-align: justify;}
 .test-result .share-box span{color:#fa0707;}
-.test-result .share-box .pic{width: 100%;margin: 0 auto;text-align: center;padding-top: 10px;}
+.test-result .share-box .pic{width: 100%;margin: 0 auto;text-align: center;padding-top: 5px;}
 .test-result .share-box .pic img{width: 100%;}
-.test-result .share-box .btn{width: 100%;height: 40px;line-height: 40px;color: #fff;margin-top: 20px; font-size: 16px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
+.test-result .share-box .btn{width: 100%;height: 40px;line-height: 40px;color: #fff;margin-top: 5px; font-size: 16px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
 .test-result .point-box{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background:rgba(49,39,28,.6);}
 .test-result .point-box .pic{width:82%;float: right;margin-right: 15px;padding-top: 10px; }
 .test-result .point-box .pic img{width: 100%;}
 /* 分享页样式 */
-.have-shared .txt-box {margin-top: 32px;}
+.have-shared .txt-box {margin-top: 28px;}
 .have-shared .txt-box .pic{width: 50%;margin: 0 auto 5px;}
 .have-shared .txt-box .pic img{width: 100%;}
-.have-shared .txt-box p{font-size: 14px;color: #31271c;position: static;margin-bottom: 10px; padding-left: 0;}
+.have-shared .txt-box p{font-size: 14px;color: #31271c;position: static;margin-bottom: 5px; padding-left: 0;}
 .have-shared .txt-box p span{position: static;color:#fa0707;font-size: 14px;}
-.have-shared .share-box .btn {margin: 10px 0;}
+.have-shared .share-box .btn {margin: 5px 0;}
 .have-shared .txt-box p:nth-child(3){color: #542b24;font-size: 16px;}
 .have-shared .txt-box p:nth-child(4){color: #542b24;font-size: 16px;}
 .have-shared .txt-box p input{padding: 0 5px; width: 80%;height:24px;line-height: 24px;background: transparent;border:1px solid #c68a71;border-radius: 5px;}
 
 /* 测试结果分享后样式 */
 .result-main{position: absolute;width: 100%;height: 100%;background:url(../images/main_bg.jpg) center no-repeat;background-size: 100% 100%;}
-.result-main .tit {padding-top: 50px; text-align: center;}
+.result-main .tit {padding-top: 35px; text-align: center;}
 .result-main .goto-test{width: 86%;margin: 40px auto 0;}
 .result-main .goto-test h4{color: #7d4134;text-align:center;font-size: 16px;}
 .result-main .goto-test .pic{width:72%;margin: 20px auto;}
@@ -68,14 +68,14 @@
 	.test-result .txt-box{margin-top: 15px;}
 	.test-result .txt-box p{margin-bottom: 10px;}
 	.test-result .share-box {margin-top: 5px;width: 80%;}
-	.test-result .tit {padding-top: 20px;}
+	.test-result .tit {padding-top: 15px;}
 	.test-result .share-box .btn {margin-top: 10px;}
 	.have-shared .txt-box {margin-top:10px;}
 	.have-shared .txt-box .pic{margin-bottom: 0;}
 	.have-shared .txt-box p{margin-bottom: 5px;}
 	.have-shared .txt-box .txt {padding: 5px 0;}
 	.have-shared .share-box .pic {padding-top:0;}
-	.have-shared .share-box .btn {margin:5px 0; }
+	.have-shared .share-box .btn {margin:3px 0; }
 	.result-main .goto-test h4 {font-size: 14px; }
 	.result-main .tit {padding-top: 28px; }
 	.result-main .txt-box {margin-top: 35px; }
