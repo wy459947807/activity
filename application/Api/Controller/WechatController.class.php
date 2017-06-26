@@ -22,7 +22,7 @@ class WechatController extends AppframeController {
     //微信自动回复
     public function index() {
         $wechat = $this->wechatObj;
-        //$this->wechatObj->valid();//明文或兼容模式可以在接口验证通过后注释此句，但加密模式一定不能注释，否则会验证失败
+        $this->wechatObj->valid();//明文或兼容模式可以在接口验证通过后注释此句，但加密模式一定不能注释，否则会验证失败
         $type = $wechat->getRev()->getRevType();
         switch ($type) {
             case $wechat::MSGTYPE_TEXT:
@@ -64,7 +64,10 @@ class WechatController extends AppframeController {
                 return $this->ajaxReturn(array("status" => 500,"msg" => "获取openid失败！", "data" => ""));
             } else {
                 $openid = $token['openid'];
-                $userinfo = $this->wechatObj->getUserInfo($openid);
+                
+                //file_put_contents('1.txt', json_encode($token));
+                //$userinfo = $this->wechatObj->getUserInfo($openid);//需要关注后才能获取用户信息
+                $userinfo = $this->wechatObj->getOauthUserinfo($token['access_token'],$token['openid']);//不需要关注就能获取用户信息
                 //var_dump($userinfo);die();
                 //echo json_encode($userinfo);die();
                 if(!empty($userinfo)){

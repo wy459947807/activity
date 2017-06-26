@@ -48,11 +48,15 @@
                 real_name:$("#real_name").val(),
                 mobile:$("#mobile").val()
             };
-            getRemoteData(data,"/index.php/Home/index/retAnswer");
-            layer.msg('提交成功！');
+            var retInfo= getRemoteData(data,"/index.php/Home/index/retAnswer",1);
             
-            window.location.href ="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0730504f2b4b6c79&redirect_uri=http%3A%2F%2Fm.10jrw.com%2Findex.php%2Fhome%2Fsendbook%2Findex.html&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
-            
+            if(retInfo.status){
+                layer.msg("提交成功！");
+                window.location.href ="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0730504f2b4b6c79&redirect_uri=http%3A%2F%2Fm.10jrw.com%2Findex.php%2Fhome%2Fsendbook%2Findex.html&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
+            }else{
+                layer.msg(retInfo.msg);
+            }
+ 
         }
 
     </script>

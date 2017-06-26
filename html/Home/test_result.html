@@ -49,6 +49,9 @@
         
         //获取问题信息 
         dataInfo.result=getRemoteData({user_id:user_id},"/index.php/Home/index/getResult");
+        if(!dataInfo.result){
+            window.location.href=loacalUrl.host+"html/Home/evaluat.html";
+        }
         bindTemplate(dataInfo, "result", "result_tpl");//模版绑定 
 
     </script>

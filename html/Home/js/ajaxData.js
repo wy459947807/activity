@@ -12,12 +12,11 @@ var dataInfo={
     result:{}
 }
 //初始化用户信息
- //$.cookie('user',"");
+//$.cookie('user',"");
 dataInfo.user=Weixin.user;//初始化用户信息
 
 initData();//初始化数据
 bindTemplate(dataInfo, "test", "test_tpl");//模版绑定 
-
 
 
 //初始化数据

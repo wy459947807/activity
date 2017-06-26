@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+    <head>
+        <meta charset="utf-8">
+        <title>悦华专区</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="css/yuehua.css">
+        
+        <link rel="stylesheet" href="../Public/css/glabal.css">
+        
+        <link rel="stylesheet" href="js/layer_pc/skin/layer.css">
+        <script src="//player.polyv.net/script/polyvplayer.min.js"></script>
+    </head>
+    <body style="background: #f0f0f0;">
+        <div id="header">
+            <script type="text/html" id="header_tpl">
+                <div class="s_header " style="position: relative; z-index: 10;">
+                {{#header.top}}
+                </div>
+                <div class="l_home_nav" style="position: relative; z-index: 10;">
+                {{#header.head}}
+                </div>
+                <a href="http://www.10jrw.com/home/heyi/zsg.html" target="_blank" rel="nofollow">
+                    <div class="l_banner" style="text-align: center; position: relative; z-index: 10;"></div>
+                </a>
+            </script>
+        </div>
+
+        <!-- 头部开始 -->
+        <div class="warp">
+            <div class="yh-main" id="index">
+
+                <script type="text/html" id="index_tpl">
+                <div class="row1">
+                    <div class="g-tit"><h1>黄金外汇每日行情分析</h1></div>
+                    <div class="video-box">
+                        <div id="videoBox" style="width: 1200px; height: 800px;">
+                            {{#videoList[0]['video']}}
+                        </div>
+                    </div>
+                    <div class="sourse-slider">
+                        <p>最近十期行情分析，免费观看</p>
+                        <span class="proe" id="proe"></span>
+                        <span class="next" id="next"></span>
+                        <div class="ul-box">
+                            <ul id="slider_main">
+                                
+                                {{each videoList as value key}}
+                                <li onclick="selectVideo({{key}})">
+                                    <img src="images/course_{{key%5+1}}.jpg" alt="">
+                                    <div class="txt">
+                                        <p>{{value.date}}</p>
+                                        <p>{{value.title}}</p>
+                                    </div>
+                                </li>
+                                {{/each}} 
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="yhmarket_list.html">>>更多外汇行情分析，请点击这里</a>
+                </div>
+                <div class="row2">
+                    <div class="g-tit"><h1>悦华名师</h1></div>
+                    <ul>
+                        
+                        {{each teacherList.list as value key}}
+                        <li>
+                            <div class="top">
+                                <img src="{{value.icon}}" alt="">
+                                <p>{{value.name}}</p>
+                                <span>{{value.focus}}</span>
+                            </div>
+                            <div class="bottom">
+                                <p>{{value.intro}}</p>
+                            </div>
+                        </li>
+                        {{/each}} 
+                    </ul>
+                    
+                    
+                </div>
+                <div class="row3">
+                    <div class="g-tit"><h1>悦华线下课程</h1></div>
+                    <ul>
+                        {{each courseList.list as value key}}
+                        <li>
+                            <h2>{{value.title}}</h2>
+                            <span>{{value.subtitle}}</span>
+                            <p><b>时间：</b>{{value.start_time}}至{{value.end_time}}</p>
+                            <p><b>地点：</b>{{value.address}}</p>
+                            <p><b>费用：</b>{{value.charge}}元/人</p>
+                            <p><b>报名方式：</b>{{value.mobile}}</p>
+                        </li>
+                        {{/each}} 
+                        
+                    </ul>
+                </div>
+                <div class="row4">
+                    <h3>报名电话：400-788-3603</h3>
+                    <form action="">
+                        <div class="input-box"><strong>姓名：</strong><input id="name" type="text" name="" data-id="uname" placeholder="请输入您的姓名"></div>
+                        <div class="input-box"><strong>电话：</strong><input id="mobile" type="text" name="" data-id="unumber" placeholder="请输入您的手机号"></div>
+                        <div class="tip-box"><p class="input-tip" id="input_tip">*请输入正确信息</p></div>
+                    </form>
+                    <button class="btn" id="sign_up" onclick="submitJoin()">立即报名</button>
+                </div>
+                </script>
+
+            </div>
+        </div>
+        
+        <div class="l_foot_box" id="footer">
+            <script type="text/html" id="footer_tpl">
+                {{#footer.foot}}
+            </script>
+        </div>
+        
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/layer_pc/layer.js"></script>
+        <script src="js/yuehua.js"></script>
+        
+        <script src="js/cookie.js"></script>
+        <script src="js/LG.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/artTemplate.js"></script>
+        <script src="js/index.js"></script>
+
+        
+    </body>
+</html>
+

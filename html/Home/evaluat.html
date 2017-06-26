@@ -17,10 +17,10 @@
                     <img src="images/tab_tit.jpg" alt="">
                 </div>
                 <div class="txt">
-                    <p>1，选项没有“对”与“错”之分，最接近自己实际情况的选项为最佳选项；</p>
-                    <p>2，本测评一旦生成测评报告则不能重新测试，请慎重对待每一道题目；</p>
-                    <p>3，本测试不能保证100%相符，仅供参考！</p>
-                    <p>4，生成测评报告后，分享到你的朋友圈，让更多股民参与这有趣的炒股能力测试吧！</p>
+                    <p>1.选项没有“对”与“错”之分，最接近自己实际情况的选项为最佳选项；</p>
+                    <p>2.本测评一旦生成测评报告则不能重新测试，请慎重对待每一道题目；</p>
+                    <p>3.本测试不能保证100%相符，仅供参考！</p>
+                    <p>4.生成测评报告后，分享到你的朋友圈，让更多股民参与这有趣的炒股能力测试吧！</p>
                 </div>
                 <div class="btn" id="begin_test">测一测我的炒股能力</div>
             </div>
@@ -32,7 +32,7 @@
                     <dl {{if key+1==subject.pageInfo.num}} class="last-one" {{/if}}>
                         <dt>{{key+1}}，{{value.name}}{{value.describe}}</dt>
                         {{each value.options as v k}}
-                        <dd data-id="{{key}}"><p>{{v.type}}，{{v.name}}<span></span></p></dd>
+                        <dd data-id="{{key}}"><p>{{v.type}}.{{v.name}}<span></span></p></dd>
                         {{/each}} 
                     </dl>
                     {{if key>0}}

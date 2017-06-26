@@ -19,12 +19,19 @@ class IndexController extends HomebaseController {
         parent::_initialize();
         $this->course_model = D("Common/SyhCourse");
         $this->join_model = D("Common/SyhJoin");
-        $this->teacher_model = D("Common/SyhTeacher");
+        $this->teacher_model = D("Common/SyhTeacher");  
     }
 
     //首页
     public function index() {
+
         $url = 'http://www.yuehua567.com/';
+        $cacheKey=md5($url);
+        
+        if(!empty(S($cacheKey))){
+            $this->ajaxReturn(200,"成功！",S($cacheKey));
+        }
+        
 
         $html = new \simple_html_dom();
         // 从url中加载
@@ -54,23 +61,31 @@ class IndexController extends HomebaseController {
             $videoString = $html->find('.article_c', 0)->innertext;
             $listArray[$key]['video'] = "";
             if (preg_match('#<script(.*?);  </script>#', $videoString, $video)) {
-                $listArray[$key]['video'] = $video[0];
+                $tmpData = str_replace("'width':'600'", "'width':'100%'", $video[0]);
+                $listArray[$key]['video'] = str_replace("'height':'338'", "'height':'600px'", $tmpData);
             };
             $html->clear();
-        }
-
-        var_dump($listArray);
-
-        //echo "ddd";
-        //$this->display();
+        } 
+        
+        S($cacheKey,$listArray,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
+        $this->ajaxReturn(200,"成功！",$listArray);
+       
     }
+    
+    
 
     public function dataList() {
         $url = 'http://www.yuehua567.com/fenxi/hangqing/';
         if (!empty($_GET['url'])) {
             $url = $url . str_replace("/fenxi/hangqing/", "", $_GET['url']);
         }
-
+        
+        $cacheKey=md5($url);
+        
+        
+        if(!empty(S($cacheKey))){
+            $this->ajaxReturn(200,"成功！",S($cacheKey));
+        }
 
         $html = new \simple_html_dom();
         // 从url中加载
@@ -78,7 +93,7 @@ class IndexController extends HomebaseController {
 
         foreach ($html->find('.art_c a') as $key => $val) {
             if (preg_match('#/fenxi/hangqing/(.*?).html#', $val->href, $test)) {
-                $val->href = "detial.php?url=" . $val->href;
+                $val->href = "yhmarket_info.html?url=" . $val->href;
             } else {
                 $val->href = "?url=" . $val->href;
             }
@@ -86,9 +101,13 @@ class IndexController extends HomebaseController {
         foreach ($html->find('.art_c option') as $key => $val) {
             $val->value = "?url=" . $val->value;
         }
-        $test = $html->find('.art_c', 0)->innertext;
+        
+        $listHtml = $html->find('.art_c', 0)->innertext;
+        $dataInfo['listHtml'] = mb_convert_encoding($listHtml, 'UTF-8','GB2312,UTF-8');//转码
+        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
 
-        echo $test;
+        $this->ajaxReturn(200,"成功！",$dataInfo);
+        
     }
 
     public function dataDetial() {
@@ -97,6 +116,14 @@ class IndexController extends HomebaseController {
         if (!empty($_GET['url'])) {
             $url = $url . $_GET['url'];
         }
+        
+        $cacheKey=md5($url);
+ 
+        if(!empty(S($cacheKey))){
+            $this->ajaxReturn(200,"成功！",S($cacheKey));
+        }
+        
+        
         $html = new \simple_html_dom();
         // 从url中加载
         $html->load_file($url);
@@ -104,13 +131,28 @@ class IndexController extends HomebaseController {
         foreach ($html->find('.context a') as $key => $val) {
             $val->href = "?url=" . $val->href;
         }
+        
+        $dataInfo=array();
+        $dataInfo['content']= mb_convert_encoding($html->find('.article_c', 0)->innertext, 'UTF-8','GB2312,UTF-8');
+        $dataInfo['foot']= $html->find('.context', 0)->innertext;
+        $dataInfo['title']= $html->find('.myh1', 0)->plaintext;
 
-        $test = $html->find('.article_c', 0)->innertext;
-        $test1 = $html->find('.context', 0)->innertext;
-        $test2 = $html->find('.myh1', 0)->plaintext;
-        echo $test;
-        echo $test1;
-        echo $test2;
+        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
+        //echo $dataInfo['content'];
+        $this->ajaxReturn(200,"成功！",$dataInfo);
+      
+        
+    }
+    
+    
+    public function getTeacher(){
+        $dataInfo = $this->teacher_model->dataList($this->params); //提交评测结果
+        $this->ajaxReturn($dataInfo['status'], $dataInfo['msg'], $dataInfo['data']);
+    }
+    
+    public function getCourse(){
+        $dataInfo = $this->course_model->dataList($this->params); //提交评测结果
+        $this->ajaxReturn($dataInfo['status'], $dataInfo['msg'], $dataInfo['data']);
     }
 
     //提交测试结果
@@ -120,7 +162,7 @@ class IndexController extends HomebaseController {
             array('mobile', 'require', 'mobile不得为空！', 1, 'regex', 3),
         );
         $this->checkField($rules, $this->params);
-        $dataInfo = $this->answerer_model->submitAnswer($this->params); //提交评测结果
+        $dataInfo = $this->join_model->dataUpdate($this->params); //提交评测结果
         $this->ajaxReturn($dataInfo['status'], $dataInfo['msg'], $dataInfo['data']);
     }
 

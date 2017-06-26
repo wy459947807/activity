@@ -71,7 +71,11 @@ wx.ready(function () {
         },
         success: function (res) {
             //alert('已分享');
-            window.location.href=Weixin.host+"html/Home/share_success.html?uid="+Weixin.user.id;
+            dataInfo.result=getRemoteData({user_id:Weixin.user.id},"/index.php/Home/index/getResult");
+            if(dataInfo.result){
+                window.location.href=Weixin.host+"html/Home/share_success.html?uid="+Weixin.user.id;
+            }
+
         },
         cancel: function (res) {
             //alert('已取消');
@@ -93,7 +97,11 @@ wx.ready(function () {
       },
       success: function (res) {
         //alert('已分享');
-        window.location.href=Weixin.host+"html/Home/share_success.html?uid="+Weixin.user.id;
+        dataInfo.result=getRemoteData({user_id:Weixin.user.id},"/index.php/Home/index/getResult");
+        if(dataInfo.result){
+            window.location.href=Weixin.host+"html/Home/share_success.html?uid="+Weixin.user.id;
+        }
+
       },
       cancel: function (res) {
         //alert('已取消');

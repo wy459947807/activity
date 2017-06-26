@@ -1,0 +1,921 @@
+[ 2017-06-26T08:55:32+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T08:58:26+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:33:58+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:34:03+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:35:22+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:35:25+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:35:29+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:35:59+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:36:39+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:37:07+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:40:10+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:40:20+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:42:05+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:44:29+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:45:29+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:45:42+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:46:22+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:46:31+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:46:36+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:04+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:16+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:20+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:23+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:28+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:35+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:53:45+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:54:42+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:54:49+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:54:54+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:54:58+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:55:02+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:55:08+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:55:13+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T10:59:54+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:01:27+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:02:28+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:02:41+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:02:46+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:02:50+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:06:27+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:06:43+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:06:56+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:07:00+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:09:26+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:09:31+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:09:35+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:09:40+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:14:56+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:15:02+08:00 ] 127.0.0.1 /index.php/Yuehua/index/dataList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:15:49+08:00 ] 127.0.0.1 /index.php/Yuehua/index/dataList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:25:32+08:00 ] 127.0.0.1 /index.php/Yuehua/index/dataList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:25:44+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:26:23+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:26:25+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,20  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T11:26:25+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,20  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:33:24+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:33:25+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:33:25+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:37:33+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:37:35+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:37:35+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:38:17+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:38:18+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:38:18+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:40:25+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:40:26+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:40:26+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:41:45+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:41:47+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:41:47+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:42:03+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:42:04+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:42:04+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:50:07+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:50:08+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:50:08+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:52:56+08:00 ] 127.0.0.1 /index.php/Yuehua/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:52:58+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getTeacher
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_teacher  WHERE   (1=1)  limit 0,2  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:52:58+08:00 ] 127.0.0.1 /index.php/Yuehua/index/getCourse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_syh_course  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_syh_course  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-26T13:53:08+08:00 ] 127.0.0.1 /index.php/Yuehua/index/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_course` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_syh_teacher` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_syh_join` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_syh_join` (`name`,`mobile`,`create_time`) VALUES ('QDQW','QWDWQD','2017-06-26 13:53:08') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+

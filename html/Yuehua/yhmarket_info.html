@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+    <head>
+        <meta charset="utf-8">
+        <title>悦华专区</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+         
+        <link rel="stylesheet" href="css/yuehua.css">
+        
+        <link rel="stylesheet" href="../Public/css/glabal.css">
+         <script src="//player.polyv.net/script/polyvplayer.min.js"></script>
+    </head>
+    <body style="background: #f0f0f0;">
+        <div id="header">
+            <script type="text/html" id="header_tpl">
+                <div class="s_header " style="position: relative; z-index: 10;">
+                {{#header.top}}
+                </div>
+                <div class="l_home_nav" style="position: relative; z-index: 10;">
+                {{#header.head}}
+                </div>
+                <a href="http://www.10jrw.com/home/heyi/zsg.html" target="_blank" rel="nofollow">
+                    <div class="l_banner" style="text-align: center; position: relative; z-index: 10;"></div>
+                </a>
+            </script>
+        </div>
+        <!-- 悦华视频开始 -->
+        <div class="warp" id="info">
+            <script type="text/html" id="info_tpl">
+            <div class="yhmarket-info">
+                <div class="article_c">
+                    <div class="tit">
+                        <p>{{articleInfo.title}}</p>
+                    </div>
+                    {{#articleInfo.content}}
+                </div>
+                <div class="handle-box">
+                    {{#articleInfo.foot}}
+                </div>
+            </div>
+            </script>
+        </div>
+        <div class="l_foot_box" id="footer">
+            <script type="text/html" id="footer_tpl">
+                {{#footer.foot}}
+            </script>
+        </div>
+        
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/layer_pc/layer.js"></script>
+        <script src="js/yuehua.js"></script>
+        
+        <script src="js/cookie.js"></script>
+        <script src="js/LG.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/artTemplate.js"></script>
+        <script src="js/info.js"></script>
+    </body>
+</html>
+

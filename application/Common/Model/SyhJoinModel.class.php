@@ -61,6 +61,31 @@ class SyhJoinModel extends CommonModel{
         return $dataInfo;
     }
     
+    
+    public function dataUpdate($params) {
+        $model = M();
+        $model->startTrans(); //事务处理
+        $this->result['msg'] = "提交成功！";
+        try {
+            if(!empty($params['id'])){
+                $model->table(C('DB_PREFIX') . 'syh_join')->where(array("id" =>$params['id']))->save($params);
+            }else{ 
+                $params['create_time']=date("Y-m-d H:i:s");
+                $model->table(C('DB_PREFIX') . 'syh_join')->add($params);
+            }
+
+            $model->commit(); //提交事物
+        } catch (Exception $e) {
+            $model->rollback(); //事物回滚
+
+            $this->result['status'] = 500;
+            $this->result['msg'] = "修改失败！";
+            return $this->result;
+        }
+        return $this->result;
+    }
+    
+    
  
     
 
