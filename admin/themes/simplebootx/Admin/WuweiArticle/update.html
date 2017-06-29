@@ -1,0 +1,93 @@
+<admintpl file="header" />
+</head>
+<body>
+    <php>
+        $statusArray=array(1=>"正常",2=>"停用");
+    </php>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('WuweiArticle/index')}">评论列表</a></li>
+            <li  class="active"><a href="{:U('WuweiArticle/update')}">添加评论</a></li>
+        </ul>
+        <form action="{:U('WuweiArticle/update')}" method="post" class="form" id="dataUpdate" enctype="multipart/form-data">
+            <if  condition="$id neq 0">
+                <input type="hidden"  name="id" value="{$id}"/>
+            </if>
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <th  width="150">评论缩略图</th>
+                            <td>
+                                <include file="simplebootx/Admin/Public/image" type="img" /> 
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <th  width="150">音频文件</th>
+                            <td>
+                                <include file="simplebootx/Admin/Public/audio" type="audio" /> 
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <th>标题</th>
+                            <td><input type="text" name="title"  value="{$title}" ></td>
+                        </tr>
+                        <tr>
+                            <th>作者</th>
+                            <td><input type="text" name="author"  value="{$author}" ></td>
+                        </tr>
+                        
+                        <tr>
+                            <th  width="150">推荐数量</th>
+                            <td>
+                               <input type="text" name="rec_num"  value="{$rec_num}" > 
+                            </td>
+                        </tr>
+   
+                        <tr>
+                            <th  width="150">预览数量</th>
+                            <td>
+                               <input type="text" name="view_num"  value="{$view_num}" > 
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <th>详细信息</th>
+                            <td>
+                                <script type="text/plain" id="content"  name="detail">{$detail}</script>
+                            </td>
+                        </tr>
+                        
+   
+                    </table>
+                </div>
+
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-primary " type="button" onclick="$('#dataUpdate').submit()">点击提交</button>
+                <a class="btn" href="{:U('WuweiArticle/index')}">返回</a>
+            </div>
+        </form>
+    </div>
+    <div id="killers" style="display: none"></div>
+    <script src="__PUBLIC__/js/common.js"></script>  
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/expand/Validform/5.3.2/Validform.min.js"></script>
+    <script src="__PUBLIC__/js/expand/strongWind.js"></script>
+
+    <script>
+        editorcontent = new baidu.editor.ui.Editor();
+        editorcontent.render('content');
+    </script>
+</body>
+</html>

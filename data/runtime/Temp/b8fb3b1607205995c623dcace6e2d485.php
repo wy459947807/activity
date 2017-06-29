@@ -1,3 +1,0 @@
-<?php
-//000000259200a:3:{s:7:"content";s:754:"   <script src='//player.polyv.net/script/polyvplayer.min.js'></script>  <div id='plv_ee439689f8a36e0e996445c8f6b5cbb0_e'></div>  <script>  var player = polyvObject('#plv_ee439689f8a36e0e996445c8f6b5cbb0_e').videoPlayer({      'width':'600',    'height':'338',      'vid' : 'ee439689f8a36e0e996445c8f6b5cbb0_e'  });  </script>  美元指数昨日小幅调整，短线多空的动能明显不足，市场等待医改法案的通过与否的消息面刺激；大多数交易品种都以调整震荡为主，短线没有太好的合适机会，投资者请耐心等待更好的交易时机；详细请看今天的视频解盘，祝交易顺利！欢迎分享和转载，2017一定悦来越好！                <p>(璐ｄ换缂?杈?锛?admin)</p>           ";s:4:"foot";s:203:"       <ul>       <li>上一篇：<a href='?url=/fenxi/hangqing/4253.html'>2017.6.22邵悦华黄金白银外汇培训分析(视频解盘）</a> </li>       <li>下一篇：没有了 </li>      </ul>     ";s:5:"title";s:64:"2017.6.23邵悦华黄金白银外汇培训分析(视频解盘）";}
-?>

@@ -31,6 +31,7 @@ class SyhTeacherController extends AdminbaseController{
         public function update() {
             if (IS_POST) {
                 $params = I('post.');  
+                $params['intro'] = htmlspecialchars_decode($params['intro']);
                 $params['detail'] = htmlspecialchars_decode($params['detail']);
                 $retInfo = $this->teacher_model->dataUpdate($params);
                 $this->ajaxReturn($retInfo);

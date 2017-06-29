@@ -71,8 +71,9 @@ class IndexController extends HomebaseController {
     public function retAnswer(){
         $rules=array(
             array('user_id','require','user_id不得为空！',1,'regex',3),
-            array('real_name','require','real_name不得为空！',1,'regex',3),
-            array('mobile','require','mobile不得为空！',1,'regex',3),
+            array('real_name','require','姓名不得为空！',1,'regex',3),
+            array('mobile','require','手机不得为空！',1,'regex',3),
+            array('mobile','/^1[34578]\d{9}$/','手机格式不正确！',1,'regex',3),
         );
         $this->checkField($rules, $this->params);
         $dataInfo= $this->answerer_model->submitAnswer($this->params);//提交评测结果

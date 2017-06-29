@@ -1,0 +1,1019 @@
+[ 2017-06-29T10:28:55+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:28:55+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:31:40+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:31:40+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:32:43+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:32:43+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:33:34+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:33:34+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:39:41+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:39:41+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:40:19+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:40:19+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:40:33+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:40:33+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:46:03+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:46:03+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:47:15+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:47:15+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:47:29+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:47:29+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:47:39+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:47:39+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:50:21+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:50:21+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:53:25+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:53:25+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:53:29+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:53:36+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T10:53:41+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_wuwei_join` (`name`,`mobile`,`create_time`) VALUES ('adsad','13333913340','2017-06-29 10:53:41') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T11:20:57+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T11:20:57+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T11:21:08+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T11:22:37+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T11:23:32+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:38:27+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:38:27+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:38:31+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:38:46+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:39:00+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:39:25+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:39:48+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:40:11+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:40:18+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:40:34+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:41:00+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:41:49+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T13:41:58+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:33:00+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:33:02+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/recommend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_wuwei_article` SET `rec_num`=rec_num+1 WHERE `id` = 2 [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:33:03+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/recommend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_wuwei_article` SET `rec_num`=rec_num+1 WHERE `id` = 2 [ RunTime:0.0680s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:36:27+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:36:29+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/recommend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_wuwei_article` SET `rec_num`=rec_num+1 WHERE `id` = 2 [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:36:41+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:36:42+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/recommend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_wuwei_article` SET `rec_num`=rec_num+1 WHERE `id` = 2 [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:36:46+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:38:10+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_wuwei_article` SET `view_num`=view_num+1 WHERE `id` = 2 [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:38:13+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_wuwei_article` SET `view_num`=view_num+1 WHERE `id` = 2 [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:38:15+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleDetail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cmf_wuwei_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_wuwei_article` SET `view_num`=view_num+1 WHERE `id` = 2 [ RunTime:0.0460s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:38:26+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/recommend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_wuwei_article` SET `rec_num`=rec_num+1 WHERE `id` = 2 [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:57:14+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:57:14+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:57:17+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: listArray D:\www\activity\application\Wuwei\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] unlink(D:\www\activity/data/runtime/Temp/caef4f570db8c963543915869f7808f5.php): No such file or directory D:\www\activity\simplewind\Core\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:57:34+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:57:35+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:57:38+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: listArray D:\www\activity\application\Wuwei\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] unlink(D:\www\activity/data/runtime/Temp/caef4f570db8c963543915869f7808f5.php): No such file or directory D:\www\activity\simplewind\Core\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:58:20+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:58:20+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:58:22+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: listArray D:\www\activity\application\Wuwei\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] unlink(D:\www\activity/data/runtime/Temp/caef4f570db8c963543915869f7808f5.php): No such file or directory D:\www\activity\simplewind\Core\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:59:53+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:59:54+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T14:59:55+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: listArray D:\www\activity\application\Wuwei\Controller\IndexController.class.php 第 98 行.
+NOTIC: [2] unlink(D:\www\activity/data/runtime/Temp/caef4f570db8c963543915869f7808f5.php): No such file or directory D:\www\activity\simplewind\Core\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T15:00:53+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T15:00:53+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T15:00:57+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T15:01:02+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  limit 0,4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T15:01:02+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0010s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-06-29T15:01:02+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+

@@ -10,18 +10,14 @@
         },
         // 开始测试
         begin_test: function () {
-            $(document).on('click', '#begin_test', function () {
-                $.cash.next_screen();
-            });
-            
-            $(document).on('click', '.make-result', function () {
+            $('.make-result').click(function(){
                 submit_answer();//提交答案
                 $.cash.next_screen();
             }); 
         },
         // 答题
         answer_subject: function () {
-            $('.test-subject dd').on('click', function () {
+            $('.test-subject dd').click(function () {
                 answer_subject(this);
                 var self = $(this),
                 par = self.parent('dl');
@@ -39,14 +35,14 @@
         },
         // 上一题
         prev_subject: function () {
-            $(document).on('click', 'button.last-one', function () {
+            $('button.last-one').click(function () {
                 $('.evaluat-item').find('dl').removeClass('answered');
                 $.cash.prev_screen();
             })
         },
         // 重新答题
         repeat_test: function () {
-            $(document).on('click', 'button.pre-test', function () {
+            $('button.pre-test').click(function () {
                 $.cash.next_screen(1);
                 $('.evaluat-item').find('dl').removeClass('answered');
                 $('.evaluat-item dl').find('dd').removeClass('selected');
@@ -54,12 +50,12 @@
             })
         },
         //分享
-        goto_share: function () {
-            $(document).on('click', '#go_share', function () {
+        goto_share:function(){
+            $(document).on('click','#go_share',function(){
                 var self = $(this),
-                        tip = self.parent('.share-box').siblings('.point-box');
+                    tip = self.parent('.share-box').siblings('.point-box');
                 tip.show();
-                tip.on('click', function () {
+                tip.on('click',function(){
                     $(this).hide();
                 })
             })
@@ -90,5 +86,10 @@
     $.cash.init();
 })(jQuery);
 
-
+function begin(){
+    var wh = $(window).height(),
+            scroll_obj = $('.evaluat-slider'),
+            height = (-wh);
+    scroll_obj.animate({top:  height}, 300);
+};
 

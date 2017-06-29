@@ -43,8 +43,6 @@ return array(
             'appsecret' => '31e8f5a47efc0f2d3d1562c90a278d9b' //填写高级调用功能的密钥
         ),
         
-        
-        
         //微信菜单
         "menu" => array(
             "button" => array(
@@ -64,12 +62,25 @@ return array(
         
     ),
     
+    //支付配置
+    "payment"=>array(
+        "wechat"=>array(
+            "WXURL"=>"https://api.mch.weixin.qq.com/pay/unifiedorder",
+            "NOIFYURL"=>"http://sheji.imwork.net/index.php/App/Payment/wechatNotify",
+            "APPID"=>"wx6ae3f95a07a56853",
+            "MCHID"=>"1354356702",
+            "KEY"=>"jbjhhzstslbldhbfhjbjgtmjbbf12345",
+            "APPSECRET"=>"797e56254890133a710f7045cd800f8f",
+        ),
+        
+    ),
+
     //测评类型
     "question_rule"=>array(
         "type_rule"=>array(
-            9=>array(0=>"理智型",1=>"冲动型",2=>"盲目型"),
-            12=>array(0=>"稳健型",1=>"审慎型",2=>"激进型"),
-            4=>array(0=>"老鬼",1=>"韭菜",2=>"小白"),
+            12=>array(0=>"理智型",1=>"冲动型",2=>"盲目型"),
+            15=>array(0=>"稳健型",1=>"审慎型",2=>"激进型"),
+            7=>array(0=>"老鬼",1=>"韭菜",2=>"小白"),
         ),
         "score_rule"=>array(0=>10,1=>5,2=>2),
     ),

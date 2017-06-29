@@ -12,7 +12,8 @@ var dataInfo={
     result:{}
 }
 //初始化用户信息
-//$.cookie('user',"");
+
+$.cookie('user',"");
 dataInfo.user=Weixin.user;//初始化用户信息
 
 initData();//初始化数据

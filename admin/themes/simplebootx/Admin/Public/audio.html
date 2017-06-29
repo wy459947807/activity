@@ -1,0 +1,22 @@
+<input type="hidden" name="[type]" id="[type]" value="{$[type]}"/>
+
+
+<if condition="!empty($[type])">
+    <div>
+        <audio controls="controls">
+            <source id='[type]-source' src="{:sp_get_image_preview_url($[type])}" />
+        </audio>
+    </div>
+<else/>
+    <div>
+        <audio controls="controls">
+            <source id='[type]-source' src="" />
+        </audio>
+    </div>
+</if>
+
+
+<div>
+    <button class="btn btn-primary " type="button" onclick="upload_one_audio('文件上传','#[type]')">点击上传</button>
+<div>
+

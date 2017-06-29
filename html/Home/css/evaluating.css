@@ -8,7 +8,7 @@
 .must-known .tit img{display: block;width: 100%;}
 .must-known .txt{margin-top: 50px;padding: 10% 10%;}
 .must-known .txt p{margin-bottom: 25px;}
-.must-known .btn{position: absolute;bottom: 14%;left: 28%; width: 44%;margin: 0 auto;height: 40px;line-height: 40px;color: #fff;font-size: 16px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
+.must-known .btn{position: absolute;bottom: 14%;left: 28%; width: 44%; margin: 0 auto;height: 40px;line-height: 40px;color: #fff;font-size: 16px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
 /* 测试题目样式 */
 .test-subject .tit{font-size: 16px; padding-top: 50px;width: 72%;margin: 0 auto;text-align: center;color:#5d4941;}
 .test-subject dl{margin-top: 50px;padding: 10%;color: #542b24;}
@@ -20,7 +20,7 @@
 /*.test-subject dl dd.selected{pointer-events: none;}*/
 .test-subject dl dd.selected p span{position: absolute;right: 0;top:0;background: url(../images/selected.png) 4px -2px no-repeat;background-size: 19px 18px;width: 25px;height: 25px;}
 .test-subject .btn-box{text-align: center;}
-.test-subject .btn{display: inline-block; width: 100px;height: 40px;line-height: 40px;font-size: 16px;color: #fff;margin: 0 15px 20px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
+.test-subject .btn{ display: inline-block; width: 100px;height: 40px;line-height: 40px;font-size: 16px;color: #fff;margin: 0 15px 20px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
 .test-subject .make-result{width: 235px; height: 40px;line-height: 40px;font-size: 16px;color: #fff;margin: 0 15px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
 /* 测试结果样式 */
 .test-result{background: url(../images/main_bg2.jpg) center no-repeat;background-size: 100% 100%;position: relative;}
@@ -38,7 +38,7 @@
 .test-result .share-box span{color:#fa0707;}
 .test-result .share-box .pic{width: 100%;margin: 0 auto;text-align: center;padding-top: 5px;}
 .test-result .share-box .pic img{width: 100%;}
-.test-result .share-box .btn{width: 100%;height: 40px;line-height: 40px;color: #fff;margin-top: 5px; font-size: 16px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
+.test-result .share-box .btn{ width: 100%;height: 40px;line-height: 40px;color: #fff;margin-top: 5px; font-size: 16px; text-align: center;background: url(../images/btn_bg.png) center no-repeat;background-size:100% 100%;}
 .test-result .point-box{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background:rgba(49,39,28,.6);}
 .test-result .point-box .pic{width:82%;float: right;margin-right: 15px;padding-top: 10px; }
 .test-result .point-box .pic img{width: 100%;}
@@ -63,6 +63,14 @@
 .result-main .goto-test p{color: #7d4134;text-align:center;font-size: 14px;}
 
 /* 兼容性样式 */
+@media screen and (min-width:400px) {
+	.result-main .tit img {width: 65px; height: 65px; border-radius: 50%; }
+	.result-main .tit {padding-top: 40px; text-align: center;}
+	.result-main .txt-box {margin-top: 52px; }
+	.test-result .txt-box p {margin-bottom: 22px;}
+	.test-result .txt-box .txt { padding: 15px 0; }
+	.result-main .goto-test .pic {margin: 28px auto;}
+}
 @media screen and (max-width:340px) {
 	.must-known .btn{font-size: 14px;width: 46%;}
 	.test-result .txt-box{margin-top: 15px;}
@@ -80,12 +88,16 @@
 	.result-main .tit {padding-top: 28px; }
 	.result-main .txt-box {margin-top: 35px; }
 }
-@media screen and (min-width:400px) {
-	.result-main .tit img {width: 65px; height: 65px; border-radius: 50%; }
-	.result-main .tit {padding-top: 40px; text-align: center;}
-	.result-main .txt-box {margin-top: 52px; }
-	.test-result .txt-box p {margin-bottom: 22px;}
-	.test-result .txt-box .txt { padding: 15px 0; }
-	.result-main .goto-test .pic {margin: 28px auto;}
+@media screen and (max-width:320px) {
+	.must-known .btn{position: absolute;bottom: 30px;}
+	.test-subject dl {margin-top: 30px; padding-bottom: 10px;}
+	.test-result .tit {padding-top: 10px;}
+	.test-result .txt-box {margin-top: 4px;}
+	.test-result .txt-box .txt {padding:0;}
+	.test-result .share-box {margin-top: 2px;}
+	.test-result .txt-box .line {height: 8px;}
+	.test-result .share-box .pic {padding-top: 0;}
+	.test-result .share-box .btn {margin-top: 1px; }
+	.result-main .tit {padding-top: 28px; }
+	.result-main .txt-box {margin-top: 35px; }
 }
-

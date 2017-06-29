@@ -37,6 +37,7 @@ function initData(){
 }
 
 function selectVideo(index){   
+    $('#slider_main').find('li').eq(index).addClass('playing').siblings('li').removeClass('playing');
     $("#videoBox").html(dataInfo['videoList'][index]['video']);
 }
 
@@ -46,9 +47,6 @@ function submitJoin(){
         mobile:$("#mobile").val(),
     }
     var retInfo = getRemoteData(dataInfo.submitData, "/index.php/Yuehua/index/submitJoin",1);
-    
-    if(retInfo.status){
-         layer.msg(retInfo.msg);
-    }
-
+    layer.msg(retInfo.msg);
+   
 }

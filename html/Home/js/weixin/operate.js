@@ -62,7 +62,7 @@ wx.config({
 wx.ready(function () {
     //分享到朋友圈
     wx.onMenuShareTimeline({
-        title: '测试您的炒股能力，挖掘更多的潜在可能，谁说你不可以收益翻番！',
+        title: '千万股民都后悔，为什么没早做这个测试！',
         link: Weixin.host+"html/Home/test_result.html?uid="+Weixin.user.id,
         imgUrl: Weixin.host+'html/Home/images/logo.jpg',
         trigger: function (res) {
@@ -71,10 +71,8 @@ wx.ready(function () {
         },
         success: function (res) {
             //alert('已分享');
-            dataInfo.result=getRemoteData({user_id:Weixin.user.id},"/index.php/Home/index/getResult");
-            if(dataInfo.result){
-                window.location.href=Weixin.host+"html/Home/share_success.html?uid="+Weixin.user.id;
-            }
+            window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0730504f2b4b6c79&redirect_uri=http%3A%2F%2Fm.10jrw.com%2Findex.php%2Fhome%2Fsendbook%2Findex.html&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
+
 
         },
         cancel: function (res) {
@@ -87,8 +85,8 @@ wx.ready(function () {
     
     //分享给朋友
     wx.onMenuShareAppMessage({
-      title: '测试您的炒股能力，挖掘更多的潜在可能，谁说你不可以收益翻番！',
-      desc: '测试您的炒股能力，挖掘更多的潜在可能，谁说你不可以收益翻番！',
+      title: '千万股民都后悔，为什么没早做这个测试！',
+      desc: '超准的炒股能力测试，终于找到了！',
       link:  Weixin.host+"html/Home/test_result.html?uid="+Weixin.user.id,
       imgUrl: Weixin.host+'html/Home/images/logo.jpg',
       trigger: function (res) {
@@ -97,10 +95,8 @@ wx.ready(function () {
       },
       success: function (res) {
         //alert('已分享');
-        dataInfo.result=getRemoteData({user_id:Weixin.user.id},"/index.php/Home/index/getResult");
-        if(dataInfo.result){
-            window.location.href=Weixin.host+"html/Home/share_success.html?uid="+Weixin.user.id;
-        }
+        window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0730504f2b4b6c79&redirect_uri=http%3A%2F%2Fm.10jrw.com%2Findex.php%2Fhome%2Fsendbook%2Findex.html&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
+
 
       },
       cancel: function (res) {

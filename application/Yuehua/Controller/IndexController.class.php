@@ -118,10 +118,10 @@ class IndexController extends HomebaseController {
         }
         
         $cacheKey=md5($url);
- 
+        /*
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
-        }
+        }*/
         
         
         $html = new \simple_html_dom();
@@ -134,6 +134,11 @@ class IndexController extends HomebaseController {
         
         $dataInfo=array();
         $dataInfo['content']= mb_convert_encoding($html->find('.article_c', 0)->innertext, 'UTF-8','GB2312,UTF-8');
+        
+        
+        $dataInfo['content'] = str_replace("'width':'600'", "'width':'100%'", $dataInfo['content']);
+        $dataInfo['content'] = str_replace("'height':'338'", "'height':'600px'", $dataInfo['content']);
+        
         $dataInfo['foot']= $html->find('.context', 0)->innertext;
         $dataInfo['title']= $html->find('.myh1', 0)->plaintext;
 
@@ -158,8 +163,10 @@ class IndexController extends HomebaseController {
     //提交测试结果
     public function submitJoin() {
         $rules = array(
-            array('name', 'require', 'name不得为空！', 1, 'regex', 3),
-            array('mobile', 'require', 'mobile不得为空！', 1, 'regex', 3),
+            array('name', 'require', '姓名不得为空！', 1, 'regex', 3),
+            array('mobile', 'require', '手机不得为空！', 1, 'regex', 3),
+            array('mobile','/^1[34578]\d{9}$/','手机格式不正确！',1,'regex',3),
+            
         );
         $this->checkField($rules, $this->params);
         $dataInfo = $this->join_model->dataUpdate($this->params); //提交评测结果

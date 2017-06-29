@@ -1,0 +1,59 @@
+<admintpl file="header" />
+</head>
+<body>
+    <php>
+        $statusArray=array(1=>"正常",2=>"停用");
+    </php>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('WuweiJoin/index')}">报名列表</a></li>
+            <li  class="active"><a href="{:U('WuweiJoin/update')}">添加报名</a></li>
+        </ul>
+        <form action="{:U('WuweiJoin/update')}" method="post" class="form" id="dataUpdate" enctype="multipart/form-data">
+            <if  condition="$id neq 0">
+                <input type="hidden"  name="id" value="{$id}"/>
+            </if>
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <th>报名姓名</th>
+                            <td><input type="text" name="name"  value="{$name}" ></td>
+                        </tr>
+   
+                        <tr>
+                            <th  width="150">电话</th>
+                            <td>
+                               <input type="text" name="mobile"  value="{$mobile}" > 
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-primary " type="button" onclick="$('#dataUpdate').submit()">点击提交</button>
+                <a class="btn" href="{:U('WuweiJoin/index')}">返回</a>
+            </div>
+        </form>
+    </div>
+    <div id="killers" style="display: none"></div>
+    <script src="__PUBLIC__/js/common.js"></script>  
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/expand/Validform/5.3.2/Validform.min.js"></script>
+    <script src="__PUBLIC__/js/expand/strongWind.js"></script>
+
+    <script>
+        editorcontent = new baidu.editor.ui.Editor();
+        editorcontent.render('content');
+    </script>
+</body>
+</html>

@@ -67,7 +67,7 @@ class ActUsersModel extends CommonModel{
             $uid=0;
             if(!empty($userInfo)){
                 $uid=$userInfo['id']; 
-                $model->table(C('DB_PREFIX') . 'act_users')->where(array("condition"=>array(array("id" =>$params['id']),array("openid"=>$params['openid']),"or")))->save($updateArray);
+                $model->table(C('DB_PREFIX') . 'act_users')->where(array("id" =>$uid))->save($updateArray);
             }else{ 
                 $uid=$model->table(C('DB_PREFIX') . 'act_users')->add($updateArray);
             }

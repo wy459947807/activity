@@ -52,5 +52,19 @@ class ActanswererController extends AdminbaseController{
                 }   
             }
         }
+        
+         //删除
+        public function  deleteInfo(){
+            if(IS_POST){
+                $ids = I('post.ids/a');
+                if(!empty($ids)){
+                    if ($this->answerer_model->where(array('id' => array('in', $ids)))->delete() !== false) {
+                        $this->ajaxReturn(array( "status" => 200, "msg" => "操作成功！","data" => ""));
+                    } else {
+                        $this->ajaxReturn(array( "status" => 500, "msg" => "操作失败！","data" => ""));
+                    }
+                }   
+            }
+        }
 
 }
