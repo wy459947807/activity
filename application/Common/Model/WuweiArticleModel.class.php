@@ -17,6 +17,8 @@ class WuweiArticleModel extends CommonModel{
         $this->sqlField = " * ";                            //数据库查询字段
         $this->sqlWhere = " (1=1) ";                        //数据库查询条件
         $this->bindValues = array();
+        
+         $this->sqlOrder = " order by issue_date desc "; 
         if (!empty($params['page'])) $this->page = $params['page'];
         if (!empty($params['pageLimit'])) $this->pageLimit = $params['pageLimit'];
 

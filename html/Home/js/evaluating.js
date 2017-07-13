@@ -11,8 +11,10 @@
         // 开始测试
         begin_test: function () {
             $('.make-result').click(function(){
-                submit_answer();//提交答案
-                $.cash.next_screen();
+                var retData= submit_answer();//提交答案
+                if(retData){
+                    $.cash.next_screen();
+                }
             }); 
         },
         // 答题
@@ -53,7 +55,7 @@
         goto_share:function(){
             $(document).on('click','#go_share',function(){
                 var self = $(this),
-                    tip = self.parent('.share-box').siblings('.point-box');
+                    tip = self.parents('.result-box').find('.point-box');
                 tip.show();
                 tip.on('click',function(){
                     $(this).hide();

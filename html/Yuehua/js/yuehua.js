@@ -19,11 +19,11 @@
 			var s = $.yh.settings;
 			var index = 0;
 			$(document).on('click',s.c_next,function(){
-				if (index < 5) {
+				if (index < 3) {
 					index ++;
 					$.yh.show_course(index);
 				}else{
-					layer.msg('只能看最近10期内容');
+					layer.msg('只能看最近8期内容');
 					return !1;
 				}
 			});
@@ -32,7 +32,7 @@
 					index --;
 					$.yh.show_course(index);
 				}else{
-					layer.msg('只能看最近10期内容');
+					layer.msg('只能看最近8期内容');
 					return !1;
 				}
 			})

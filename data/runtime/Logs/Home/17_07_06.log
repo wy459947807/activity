@@ -1,0 +1,74 @@
+[ 2017-07-06T09:25:45+08:00 ] 127.0.0.1 /index.php/Home/Fservice/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-06T09:25:52+08:00 ] 127.0.0.1 /index.php/Home/Fservice/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_fsc_contact` (`mobile`,`create_time`) VALUES ('13333913340','2017-07-06 09:25:51') [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-06T09:25:59+08:00 ] 127.0.0.1 /index.php/Home/Fservice/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_fsc_contact` (`mobile`,`create_time`) VALUES ('13333913340','2017-07-06 09:25:59') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-06T09:28:12+08:00 ] 127.0.0.1 /index.php/Home/Fservice/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_fsc_contact` (`mobile`,`create_time`) VALUES ('13322585545','2017-07-06 09:28:12') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-06T09:30:33+08:00 ] 127.0.0.1 /index.php/Home/Fservice/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_fsc_contact` (`mobile`,`create_time`) VALUES ('13333913340','2017-07-06 09:30:33') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-06T09:31:10+08:00 ] 127.0.0.1 /index.php/Home/Fservice/submitJoin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1055 行.
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `cmf_fsc_contact` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_fsc_contact` (`mobile`,`create_time`) VALUES ('13333913340','2017-07-06 09:31:09') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+

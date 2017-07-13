@@ -1,0 +1,47 @@
+[ 2017-07-05T13:46:15+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0010s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###967020a51470d7a821b5f66d14826204',`user_nicename`='admin',`user_email`='459947807@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-07-05 13:46:15',`create_time`='2017-06-06 01:42:41',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0010s ]
+
+[ 2017-07-05T13:47:10+08:00 ] 127.0.0.1 /index.php?g=Admin&m=WuweiArticle&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_wuwei_article` SET `id`='3',`img`='/data/upload/admin/20170628/59537591b283a.jpg',`audio`='/data/upload/admin/20170628/59537574f290f.mp3',`title`='fsadf',`author`='dsfad',`rec_num`='22',`view_num`='22',`issue_date`='2017-07-05 13:47',`detail`='<p>2222<br/></p>' WHERE `id` = '3' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-05T13:50:58+08:00 ] 127.0.0.1 /index.php?g=Admin&m=WuweiArticle&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_wuwei_article` SET `id`='2',`img`='/data/upload/admin/20170628/59536e17b8421.jpg',`audio`='/data/upload/admin/20170628/59537550e80d9.mp3',`title`='ssfsf',`author`='2ads',`rec_num`='7',`view_num`='5',`issue_date`='2017-07-19 13:50',`detail`='<p>fsdfsdf<br/></p>' WHERE `id` = '2' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+

@@ -13,7 +13,7 @@ var dataInfo={
 }
 //初始化用户信息
 
-$.cookie('user',"");
+//$.cookie('user',"");
 dataInfo.user=Weixin.user;//初始化用户信息
 
 initData();//初始化数据
@@ -51,9 +51,16 @@ function submit_answer(){
         options:dataInfo.answers
     };
     
-    //alert(dataInfo.answers[0]);
-    dataInfo.subject=getRemoteData(data,"/index.php/Home/index/submitAnswer");
-    getResult();
+
+    if(count(dataInfo.answers)<dataInfo.subject.pageInfo.num){
+        layer.msg("请完成问卷后提交！");
+        return false;
+    }else{
+        //alert(dataInfo.answers[0]);
+        dataInfo.subject=getRemoteData(data,"/index.php/Home/index/submitAnswer");
+        getResult();
+        return true;
+    }
    
 }
 

@@ -52,39 +52,44 @@
     </div>
     
     <script type="text/html" id="result_tpl">
-        <div class="tit">
-            <img src="{{result.headimgurl}}" alt="">
-            <p>{{result.nickname}}</p>
-        </div>
-        <div class="txt-box">
-            <div class="line"></div>
-            <div class="txt">
-                <p><span>能力：</span>{{result.total_score}}</p>
-                <p><span>评价：</span>{{result.comment}}</p>
-                <p><span>类型：</span>{{result.type_describe}}</p>
+        <div class="result-box">
+            <div class="tit">
+                <img src="{{result.headimgurl}}" alt="">
+                <p>{{result.nickname}}</p>
             </div>
-            <div class="line"></div>
-        </div>
-        <div class="share-box">
-            <p>分享到朋友圈或转发给好友，可以领取<span>19800元</span>的投资课程门票，并有机会获赠“百年投资经典巅峰作品集”（20本）</p>
-            <div class="pic">
-                <img src="images/books.jpg" alt="">
+            <div class="txt-box">
+                <div class="line"></div>
+                <div class="txt">
+                    <p><span>能力：</span>{{result.total_score}}</p>
+                    <p><span>类型：</span>{{result.type_describe}}</p>
+                    <p><span>评价：</span>{{result.comment}}</p>
+                </div>
+                <div class="line"></div>
             </div>
-            <button class="btn" id="go_share">立即分享</button>
-        </div>
-        <!-- 指引分享蒙版 -->
-        <div class="point-box" style="display: none;">
-            <div class="pic">
-                <img src="images/share-point.png" alt="">
+            <div class="share-box">
+                <div class="content">
+                    <p>分享到朋友圈或转发给好友，可以领取<span>19800元</span>的投资课程门票，并有机会获赠“百年投资经典巅峰作品集”（20本）</p>
+                    <div class="pic">
+                        <img src="images/books.jpg" alt="">
+                    </div>
+                    <button class="btn" id="go_share">立即分享</button>
+                </div>
+            </div>
+            <!-- 指引分享蒙版 -->
+            <div class="point-box" style="display: none;">
+                <div class="pic">
+                    <img src="images/share-point.png" alt="">
+                </div>
             </div>
         </div>
     </script>
     
         
     <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="../Public/js/layer/layer.js"></script>
     <script src="js/cookie.js"></script>
     <script src="js/LG.js"></script>
-    <script src="js/common.js"></script>
+    <script src="../Public/js/common.js"></script>
     <script src="js/artTemplate.js"></script>
     <script src="js/weixin/login.js"></script>
     

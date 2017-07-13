@@ -6,13 +6,13 @@
 
 
 //获取远程数据
-function getRemoteData(dataInfo, ajaxUrl,isInfo) {
-    var method="post";//默认post提交方式
-    if(dataInfo['method']){
-        method=dataInfo['method'];
+function getRemoteData(dataInfo, ajaxUrl, isInfo) {
+    var method = "post";//默认post提交方式
+    if (dataInfo['method']) {
+        method = dataInfo['method'];
         delete  dataInfo['method'];
     }
-    
+
     var retData = {}
     $.ajax({
         url: ajaxUrl,
@@ -21,9 +21,9 @@ function getRemoteData(dataInfo, ajaxUrl,isInfo) {
         dataType: "json", //dataType: "html",
         async: false,
         success: function (res) {
-            if(isInfo){
-                retData = res;  
-            }else{
+            if (isInfo) {
+                retData = res;
+            } else {
                 retData = res.data;
             }
         },
@@ -46,4 +46,19 @@ function bindTemplate(data, boxId, tempId, append) {
             $('#' + boxId).append(list_tpl);
         }
     }
+}
+
+//计算数组长度
+function count(obj) {
+    var objType = typeof obj;
+    if (objType == "string") {
+        return obj.length;
+    } else if (objType == "object") {
+        var objLen = 0;
+        for (var i in obj) {
+            objLen++;
+        }
+        return objLen;
+    }
+    return false;
 }

@@ -637,6 +637,8 @@ function  upload_one_audio(dialog_title, input_selector, filetype, extra_params,
     open_upload_dialog(dialog_title, function (dialog, files) {
         $(input_selector).val(files[0].preview_url);
         $(input_selector + '-source').attr('src', files[0].preview_url);
+        $(input_selector + '-box').show();
+        
     }, extra_params, 0, 'audio', app);
 }
 

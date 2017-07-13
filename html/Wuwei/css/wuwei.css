@@ -38,7 +38,7 @@ a img{transition: .3s; -ms-transition: .3s; -moz-transition: .3s; -webkit-transi
 .sourse-slider ul li .txt p{font-size: 14px;color: #ffffff;line-height: 1.4em;}
 /* 第一行右侧 */
 .ww-main .row1 .col-r{float: right;width: 494px;}
-.ww-main .row1 .comment-list {background: #fff;padding: 10px;}
+.ww-main .row1 .comment-list {background: #fff;padding: 10px;height:566px;overflow-y:scroll;}
 .ww-main .row1 .comment-list li{overflow: hidden;margin:10px 0;position: relative;padding-bottom: 15px;}
 .ww-main .row1 .comment-list .txt{float: left;width: 348px;line-height: 2em;}
 .ww-main .row1 .comment-list a:hover{color: #f00000;}
@@ -85,14 +85,13 @@ a img{transition: .3s; -ms-transition: .3s; -moz-transition: .3s; -webkit-transi
 .kecheng_box .kechengtable tbody tr td p.huifang_btn a{color:#00baff;}
 .huifang_btn{color:#0071a5; cursor: pointer;}
 /* 第四行开始 */
-.ww-main .row4 {margin-bottom: 30px;}
-.ww-main .row4 .g-tit{padding: 38px 0 38px;}
-.ww-main .row4 ul{overflow: hidden;margin: 0 -16px;}
-.ww-main .row4 li{padding-left: 60px; float: left;width: 316px;height: 294px;border-radius: 5px; background: #fff;border: 1px solid #e5e5e5;margin: 0 16px;}
-.ww-main .row4 li:hover{border: 1px solid #fd4b4b;}
-.ww-main .row4 li h2{font-size: 24px;line-height: 50px;color: #fd4b4b;padding: 10px 0;}
-.ww-main .row4 li span{font-size: 14px;line-height:18px;color: #fd4b4b;padding-bottom: 15px;display: inline-block;}
-.ww-main .row4 li p{line-height: 32px;}
+.ww-main .row4 {margin-bottom: 30px;margin: 0 -16px;overflow: hidden;}
+.ww-main .row4>div{padding-left: 60px; float: left;width: 316px;height: 294px;border-radius: 5px; background: #fff;border: 1px solid #e5e5e5;margin: 0 16px;}
+.ww-main .row4>div:hover{border: 1px solid #fd4b4b;}
+.ww-main .row4 h2{font-size: 24px;line-height: 50px;color: #fd4b4b;padding: 10px 0;}
+.ww-main .row4 li{font-size: 14px;line-height:32px;padding-bottom: 15px;display: inline-block;}
+.ww-main .row4 .g-tit{padding: 38px 0 38px;background: none;width: 100%;border: 0; height: auto;text-align: center;float: none;}
+.ww-main .row4>div.g-tit:hover{border: 0;}
 .ww-main .row5{width: 570px;margin: 0 auto;padding-top: 30px;}
 .ww-main .row5 h3{font-size: 24px;color: #ff3a3a;text-align: center;margin-bottom: 20px;}
 .ww-main .row5 .input-box{ padding-left: 32px; margin-bottom: 12px; width: 568px;border: 1px solid #e5e5e5;border-radius: 5px;height: 60px;line-height:60px;background: #fff;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}

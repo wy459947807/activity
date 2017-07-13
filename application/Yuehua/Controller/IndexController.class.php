@@ -28,9 +28,10 @@ class IndexController extends HomebaseController {
         $url = 'http://www.yuehua567.com/';
         $cacheKey=md5($url);
         
+        /*
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
-        }
+        }*/
         
 
         $html = new \simple_html_dom();
@@ -52,7 +53,7 @@ class IndexController extends HomebaseController {
             };
             $listArray[] = $item;
         }
-
+        $listArray=array_reverse($listArray);
         $html->clear();
 
         foreach ($listArray as $key => $val) {
@@ -67,8 +68,15 @@ class IndexController extends HomebaseController {
             $html->clear();
         } 
         
-        S($cacheKey,$listArray,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
-        $this->ajaxReturn(200,"成功！",$listArray);
+        $retList=array();
+        foreach ($listArray as $key=>$val){
+            if(!empty($val['title'])&&!empty($val['video'])){
+                $retList[]=$val;
+            }
+        }
+        
+        S($cacheKey,$retList,array('type'=>'file','expire'=>(3600*24)*0.5)); //设置缓存3天
+        $this->ajaxReturn(200,"成功！",$retList);
        
     }
     
@@ -104,7 +112,7 @@ class IndexController extends HomebaseController {
         
         $listHtml = $html->find('.art_c', 0)->innertext;
         $dataInfo['listHtml'] = mb_convert_encoding($listHtml, 'UTF-8','GB2312,UTF-8');//转码
-        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
+        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*0.5)); //设置缓存3天
 
         $this->ajaxReturn(200,"成功！",$dataInfo);
         
@@ -118,10 +126,10 @@ class IndexController extends HomebaseController {
         }
         
         $cacheKey=md5($url);
-        /*
+        
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
-        }*/
+        }
         
         
         $html = new \simple_html_dom();
@@ -133,6 +141,13 @@ class IndexController extends HomebaseController {
         }
         
         $dataInfo=array();
+        
+        foreach ($html->find('.article_c img') as $key => $val) {
+             $val->src ='http://www.yuehua567.com' . $val->src;
+        }
+        
+        
+        
         $dataInfo['content']= mb_convert_encoding($html->find('.article_c', 0)->innertext, 'UTF-8','GB2312,UTF-8');
         
         
@@ -142,7 +157,7 @@ class IndexController extends HomebaseController {
         $dataInfo['foot']= $html->find('.context', 0)->innertext;
         $dataInfo['title']= $html->find('.myh1', 0)->plaintext;
 
-        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
+        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*0.5)); //设置缓存3天
         //echo $dataInfo['content'];
         $this->ajaxReturn(200,"成功！",$dataInfo);
       

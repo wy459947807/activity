@@ -15,6 +15,8 @@ return array (
   'ADMIN_BACKUP_RESTORE' => '数据还原',
   'ADMIN_DYKUSERS_DEFAULT' => '老师代言',
   'ADMIN_DYKUSERS_INDEX' => '参与人员',
+  'ADMIN_FSCCONTACT_DEFAULT' => '金融服务',
+  'ADMIN_FSCCONTACT_INDEX' => '开户人',
   'ADMIN_LINK_ADD_POST' => '提交添加',
   'ADMIN_LINK_EDIT_POST' => '提交编辑',
   'ADMIN_LINK_LISTORDERS' => '友情链接排序',

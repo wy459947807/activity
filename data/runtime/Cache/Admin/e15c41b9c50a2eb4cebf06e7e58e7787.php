@@ -78,7 +78,7 @@
                     <th>状态</th>
                     <th>推荐数量</th>
                     <th>预览数量</th>
-                    <th>创建日期</th>
+                    <th>发布日期</th>
                     <th width="120">操作</th>
                 </tr>
             </thead>
@@ -94,7 +94,7 @@
                     <td><?php echo ($statusArray[$vo['status']]); ?></td>
                     <td><?php echo ($vo["rec_num"]); ?></td>
                     <td><?php echo ($vo["view_num"]); ?></td>
-                    <td><?php echo ($vo["create_time"]); ?></td>
+                    <td><?php echo ($vo["issue_date"]); ?></td>
                     <td>
                         <a href="<?php echo U('WuweiArticle/update',array('id'=>$vo['id']));?>">修改</a> | 
                         <?php if($vo["status"] == 1): ?><a href="javascript:void(0)" onclick="updateStatus(<?php echo ($vo["id"]); ?>,2)">禁用</a> |   

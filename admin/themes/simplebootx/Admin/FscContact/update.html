@@ -1,0 +1,76 @@
+<admintpl file="header" />
+</head>
+<body>
+    <php>
+        $statusArray=array(1=>"正常",2=>"停用");
+    </php>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('WuweiTeacher/index')}">老师列表</a></li>
+            <li  class="active"><a href="{:U('WuweiTeacher/update')}">添加老师</a></li>
+        </ul>
+        <form action="{:U('WuweiTeacher/update')}" method="post" class="form" id="dataUpdate" enctype="multipart/form-data">
+            <if  condition="$id neq 0">
+                <input type="hidden"  name="id" value="{$id}"/>
+            </if>
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-bordered">
+
+                        <tr>
+                            <th  width="150">老师头像</th>
+                            <td>
+                                <include file="simplebootx/Admin/Public/image" type="icon" /> 
+                            </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>老师姓名</th>
+                            <td><input type="text" name="name"  value="{$name}" ></td>
+                        </tr>
+   
+                        <tr>
+                            <th  width="150">关注数量</th>
+                            <td>
+                               <input type="text" name="focus"  value="{$focus}" > 
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>老师简介</th>
+                            <td>
+                                
+                                <script type="text/plain" id="content"  name="intro">{$intro}</script>
+                            </td>
+                        </tr>
+                        
+   
+                    </table>
+                </div>
+
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-primary " type="button" onclick="$('#dataUpdate').submit()">点击提交</button>
+                <a class="btn" href="{:U('WuweiTeacher/index')}">返回</a>
+            </div>
+        </form>
+    </div>
+    <div id="killers" style="display: none"></div>
+    <script src="__PUBLIC__/js/common.js"></script>  
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/expand/Validform/5.3.2/Validform.min.js"></script>
+    <script src="__PUBLIC__/js/expand/strongWind.js"></script>
+
+    <script>
+        editorcontent = new baidu.editor.ui.Editor();
+        editorcontent.render('content');
+    </script>
+</body>
+</html>

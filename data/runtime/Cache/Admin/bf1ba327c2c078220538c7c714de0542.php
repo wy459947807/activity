@@ -79,13 +79,13 @@
                                 <input type="hidden" name="audio" id="audio" value="<?php echo ($audio); ?>"/>
 
 
-<?php if(!empty($audio)): ?><div>
+<?php if(!empty($audio)): ?><div id="audio-box">
         <audio controls="controls">
             <source id='audio-source' src="<?php echo sp_get_image_preview_url($audio);?>" />
         </audio>
     </div>
 <?php else: ?>
-    <div>
+    <div id="audio-box">
         <audio controls="controls">
             <source id='audio-source' src="" />
         </audio>
@@ -94,7 +94,14 @@
 
 <div>
     <button class="btn btn-primary " type="button" onclick="upload_one_audio('文件上传','#audio')">点击上传</button>
+    <button class="btn btn-primary " type="button" onclick="upload_cancel()">点击取消</button>
 <div>
+<script>
+    function upload_cancel(){
+        $("#audio").val('');
+        $("#audio-box").hide();
+    }
+</script>
 
  
                             </td>
@@ -104,6 +111,7 @@
                             <th>标题</th>
                             <td><input type="text" name="title"  value="<?php echo ($title); ?>" ></td>
                         </tr>
+                        
                         <tr>
                             <th>作者</th>
                             <td><input type="text" name="author"  value="<?php echo ($author); ?>" ></td>
@@ -120,6 +128,14 @@
                             <th  width="150">预览数量</th>
                             <td>
                                <input type="text" name="view_num"  value="<?php echo ($view_num); ?>" > 
+                            </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>发布日期</th>
+                            <td>
+                                <input type="text" name="issue_date" class="js-datetime" value="<?php echo ($issue_date); ?>" style="width: 120px;" autocomplete="off">
                             </td>
                         </tr>
                         

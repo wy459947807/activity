@@ -1,0 +1,37 @@
+[ 2017-07-11T09:23:00+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_article  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_article  WHERE   (1=1)  order by issue_date desc  limit 0,20  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-11T09:23:00+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/teacherList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) as num FROM  cmf_wuwei_teacher  WHERE   (1=1)  [ RunTime:0.0000s ]
+SQL: SELECT  *  FROM  cmf_wuwei_teacher  WHERE   (1=1)  limit 0,3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-11T09:23:10+08:00 ] 127.0.0.1 /index.php/Wuwei/Index/courseList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_teacher` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_join` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_wuwei_article` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+

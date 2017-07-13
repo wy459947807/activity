@@ -29,7 +29,7 @@ function initData(){
     dataInfo.footer = getRemoteData({}, "/index.php/Home/html/footer");
     
     //无为评论
-    dataInfo.article = getRemoteData({pageLimit:4}, "/index.php/Wuwei/Index/articleList");
+    dataInfo.article = getRemoteData({}, "/index.php/Wuwei/Index/articleList");
     
     //老师列表
     dataInfo.teacher = getRemoteData({pageLimit:3}, "/index.php/Wuwei/Index/teacherList");
