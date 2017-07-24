@@ -1,0 +1,258 @@
+[ 2017-07-20T10:44:59+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0000s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###967020a51470d7a821b5f66d14826204',`user_nicename`='admin',`user_email`='459947807@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2017-07-20 10:44:59',`create_time`='2017-06-06 01:42:41',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0000s ]
+
+[ 2017-07-20T10:45:14+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:45:43+08:00 ] 127.0.0.1 /index.php?g=Admin&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:46:36+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0020s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'TianyiOrder' AND `action` = 'default' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `cmf_menu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('0','天翼阅读','Admin','TianyiOrder','default','','book','','1','1') [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/tianyiorder/default' LIMIT 1   [ RunTime:0.0410s ]
+SQL: INSERT INTO `cmf_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('admin/tianyiorder/default','Admin','admin_url','天翼阅读') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0020s ]
+NOTIC: [2] mkdir(): File exists D:\www\activity\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-07-20T10:46:37+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:46:38+08:00 ] 127.0.0.1 /index.php?g=Admin&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:46:42+08:00 ] 127.0.0.1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:46:47+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add&parentid=205&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:47:12+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'TianyiOrder' AND `action` = 'index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `cmf_menu` WHERE `id` = 205 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('205','订单列表','Admin','TianyiOrder','index','','','','1','1') [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/tianyiorder/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('admin/tianyiorder/index','Admin','admin_url','订单列表') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0010s ]
+NOTIC: [2] mkdir(): File exists D:\www\activity\application\Admin\Controller\MenuController.class.php 第 247 行.
+
+[ 2017-07-20T10:47:12+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-07-20T10:53:10+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=updateStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `cmf_tianyi_order` SET `status`='2' WHERE `id` IN ('1') [ RunTime:0.2870s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-20T10:53:13+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=updateStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `cmf_tianyi_order` SET `status`='1' WHERE `id` IN ('1') [ RunTime:0.0480s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-20T11:06:36+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: intro D:\www\activity\application\Admin\Controller\TianyiOrderController.class.php 第 34 行.
+NOTIC: [8] Undefined index: detail D:\www\activity\application\Admin\Controller\TianyiOrderController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'intro' in 'field list'
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`intro`,`detail`,`create_time`) VALUES ('2','','','1500519996')
+ERR: 1054:Unknown column 'intro' in 'field list'
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`intro`,`detail`,`create_time`) VALUES ('2','','','1500519996')
+
+[ 2017-07-20T11:06:37+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: intro D:\www\activity\application\Admin\Controller\TianyiOrderController.class.php 第 34 行.
+NOTIC: [8] Undefined index: detail D:\www\activity\application\Admin\Controller\TianyiOrderController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'intro' in 'field list'
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`intro`,`detail`,`create_time`) VALUES ('2','','','1500519997')
+ERR: 1054:Unknown column 'intro' in 'field list'
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`intro`,`detail`,`create_time`) VALUES ('2','','','1500519997')
+
+[ 2017-07-20T11:06:42+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: intro D:\www\activity\application\Admin\Controller\TianyiOrderController.class.php 第 34 行.
+NOTIC: [8] Undefined index: detail D:\www\activity\application\Admin\Controller\TianyiOrderController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'intro' in 'field list'
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`intro`,`detail`,`create_time`) VALUES ('2','','','1500520002')
+ERR: 1054:Unknown column 'intro' in 'field list'
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`intro`,`detail`,`create_time`) VALUES ('2','','','1500520002')
+
+[ 2017-07-20T14:01:13+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=updateStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `cmf_tianyi_order` SET `status`='2' WHERE `id` IN ('1') [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-20T14:01:34+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0000s ]
+ERR: 1364:Field 'order_sn' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`create_time`) VALUES ('1','1500530494')
+ERR: 1364:Field 'order_sn' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `cmf_tianyi_order` (`status`,`create_time`) VALUES ('1','1500530494')
+
+[ 2017-07-20T14:02:31+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=updateStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `cmf_tianyi_order` SET `status`='1' WHERE `id` IN ('1') [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-20T14:02:36+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=updateStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `cmf_tianyi_order` SET `status`='3' WHERE `id` IN ('1') [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2017-07-20T14:02:44+08:00 ] 127.0.0.1 /index.php?g=Admin&m=TianyiOrder&a=updateStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_tianyi_order` [ RunTime:0.0010s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\www\activity\simplewind\Core\Library\Think\Model.class.php 第 445 行.
+SQL: UPDATE `cmf_tianyi_order` SET `status`='1' WHERE `id` IN ('1') [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: url D:\www\activity\application\Common\Controller\AppframeController.class.php 第 22 行.
+
