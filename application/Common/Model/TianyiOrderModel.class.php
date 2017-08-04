@@ -50,18 +50,26 @@ class TianyiOrderModel extends CommonModel{
         $model->startTrans(); //事务处理
         $this->result['msg'] = "操作成功！";
         try {
+            
             if(!empty($params['id'])){
                 $params['update_time']= time();
                 $model->table(C('DB_PREFIX') . 'tianyi_order')->where(array("id" =>$params['id']))->save($params);
-            }else if(!empty($params['order_sn'])){
-                $params['update_time']= time();
-                $model->table(C('DB_PREFIX') . 'tianyi_order')->where(array("order_sn" =>$params['order_sn']))->save($params);
             }else{ 
+                
+                $orderInfo=$model->table(C('DB_PREFIX') . 'tianyi_order')->where(array("user_id" =>$params['user_id'],"course_id"=>$params['course_id']))->find();
+               
                 $params['create_time']= time();
-                $params['order_sn'] ="S".date("Ymd").time();//订单号
+                if(empty($params['order_sn'])){
+                    $params['order_sn'] ="S".date("Ymd").time();//订单号
+                }
                 $params['total_money'] = $params['money']-$params['minus_money'];//订单金额
                 $params['status']=1;//设为未支付
-                $model->table(C('DB_PREFIX') . 'tianyi_order')->add($params);
+                if(!empty($orderInfo)){
+                    $model->table(C('DB_PREFIX') . 'tianyi_order')->where(array("id" =>$orderInfo['id']))->save($params);
+                }else{
+                    $model->table(C('DB_PREFIX') . 'tianyi_order')->add($params);
+                }
+
                 $this->result['data']=array(
                     "order_sn"=>$params['order_sn'],
                 );

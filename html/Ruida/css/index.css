@@ -1,0 +1,759 @@
+@charset "utf-8";
+ /*  
+*@description:  
+*@author: name 林异频  
+* @update: name (2015-07-14 18:32)更新 */
+/****************************首页****************************/
+/**************banner**************/
+.banner{position:relative; z-index:1;clear:both; overflow:hidden;min-width:320px; width:100%;}
+.banner a{ overflow:hidden; display:block; width:100%; /*height:240px; */background-size: auto 100% !important}
+.banner a img{ width:100%; vertical-align:top}
+
+
+/* dots */
+.banner .slick-dots { position: absolute; display: block; box-sizing:border-box; width:100%;bottom:10px; list-style: none; text-align:center; margin:0; z-index:5;}
+.banner .slick-dots li { position: relative; display: inline-block; *display:inline; margin:0 5px}
+.banner .slick-dots li button{ display:inline-block; outline: none; line-height: 0; font-size: 0; border: 0; color: transparent; padding: 0; cursor: pointer; outline: none;width:17px; height:16px; background:url(../images/banner.png) no-repeat 0 0;}
+.banner .slick-dots li button:focus { outline: none;}
+.banner .slick-dots .slick-active button{ background-position:-27px 0}
+.banner .slick-prev,.banner .slick-next{ width:30px; height:52px; position:absolute; top:50%; margin-top:-26px; cursor:pointer; border:0; display:none !important;outline:none;}
+.banner .slick-prev{ left:0; background:url(../images/banner_1.png) no-repeat 0 0}
+.banner .slick-next{right:0; background:url(../images/banner_1.png) no-repeat -30px 0}
+
+/**************index_top**************/
+.index_top{ background:url(../images/index_top.png) repeat; clear:both; overflow:hidden; border-bottom:1px solid #fff}
+.index_top ul{ padding:0}
+.index_top ul li{ float:left; width:25%; *width:22%; text-align:center; padding:10px; font-size:12px}
+.index_top ul li em{ display:block; clear:both;/* overflow:hidden;*/ padding-bottom:5px}
+.index_top ul li em img{ max-width:80%}
+.index_top ul li a{ color:#f7941e}
+.index_top ul li.index_tb{ background:none}
+/**************index1**************/
+.index_1.beijing{ padding:10px 0}
+.index1{ margin-bottom:15px;background:#fff; clear:both; overflow:hidden}
+.index1_1{ background:url(../images/index1_top1.jpg) repeat-x bottom; line-height:50px; height: 52px;}
+.index1_1 p{ overflow: hidden;}
+.index1_1 span{ padding-bottom:2px; display:inline-block; padding:0 20px; position:relative}
+.index1_1 span.on{ border-bottom:2px solid #CA0D12; font-size:16px; color:#CA0D12}
+.index1_1 span.on em{ position:absolute; left:50%; bottom:-2px; width:15px; height:10px; margin-left:-8px; background:url(../images/index1_top.jpg) no-repeat 0 0; z-index:2}
+.index1_1 a{ float: right; font-size: 12px; margin: 0 10px; display: inline-block;}
+.index_more{float: right; font-size: 12px; margin: 0 10px; display: inline-block;}
+.index_more a{ display:none;text-transform: uppercase;}
+.index1_2{ padding:10px}
+.index1_2 dl dt{ border-bottom:1px dashed #c6c6c6; clear:both; overflow:hidden; padding-bottom:10px; margin-bottom:10px}
+.index1_2 dl dt em{ float:left; width:126px; height:82px; overflow:hidden; margin-right:10px; display:inline-block}
+.index1_2 dl dt em img{ width:100%}
+.index1_2 dl dt .index1_3{ overflow:hidden; line-height:26px}
+.index1_3 h4{ height:26px; overflow:hidden; font-weight:lighter; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:#b51a1e; *white-space: normal;}
+.index1_3 h4 span{ float:right; overflow: hidden; margin-top: 8px; display: inline-block;}
+.index1_3 h4 span img{ vertical-align: top;}
+.index1_3 h4 a{color:#b51a1e; overflow: hidden;}
+.index1_3 p{ color:#5d5d5d; height:52px; overflow:hidden}
+.index1_3 p span,.index1_2 dl dd span{ font-size: 12px; float:right; background:url(../images/index1_1.jpg) no-repeat center center; width:55px; text-align:center; height:26px; display:inline-block; color:#FFF }
+.index1_3 p a{ color:#f8791b}
+.index1_3 p span,.index1_3 p a{ display:none}
+.index1_2 dl dd{ line-height:26px; clear:both; overflow:hidden; padding:2px 0;}
+.index1_2 dl dd a{ height:26px; overflow:hidden}
+.index1_2 dl dd p{ overflow:hidden; text-overflow:ellipsis; height:26px; white-space:nowrap;}
+.index1_2 dl dd span{ margin-left:5px}
+.index1_2 dl dd p.index_new{ background:url(../images/index_new.jpg) no-repeat right 8px; padding-right:35px; text-overflow:inherit; white-space:normal}
+.index2{ clear:both; overflow:hidden;}
+.index2 li{ float:left; width:48%; overflow:hidden; margin-right:4%; border-radius:5px}
+.index2 li.index2_nr{ margin-right:0}
+.index2 li img{ width:100%}
+.index3{padding:10px 0}
+.index3 img{ width:100%}
+.index_2 .index1_1 span{ cursor:pointer}
+.index_2 .index1_2 dl{ display:none}
+/**************友情链接**************/
+.lj{ background: #fff; clear: both; overflow: hidden; padding: 5px 0 20px;}
+.lj dt{ clear: both; overflow: hidden; border-bottom: 1px solid #eff0ef; background: url(../images/lj.png) no-repeat 10px center; line-height: 40px; padding-left:40px;font-size: 16px; color: #000; margin: 3px 0 15px;}
+.lj dd{ clear: both; overflow: hidden; padding:2px 10px; line-height: 24px;}
+.lj dd h4{ color: #000;}
+
+/****************************内页****************************/
+/**************常见问题**************/
+.faq{ clear:both; overflow:hidden; padding:10px}
+.faq li{ clear:both; overflow:hidden;}
+.faq1{ clear:both; overflow:hidden;border-bottom:1px dashed #c7c7c7; padding:10px 0 10px 20px; height: 48px; *height: 27px;line-height:27px; background:url(../images/faq_2.png) no-repeat 0 center;}
+.faq1 h4{ float:right; font-weight:lighter; overflow:hidden; display:inline-block; margin-left:8px; color:#fff; background:url(../images/faq_1.png) no-repeat 0 0;height:27px; text-align:center; padding-left:6px; cursor: pointer;}
+.faq1 h4 span,.faq1 h4 em,.loaddown1_3 h4 a{ width:77px; overflow:hidden; font-style:normal }
+.faq1 h4 span{ display: block;}
+.faq1 h4 em{ display: none;}
+.faq1 p{ overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
+.faq2{ clear: both; overflow: hidden; display: none; padding:15px 0;}
+.faq li.on .faq1{ background: none; padding:10px 0; color: #ca0d12;}
+.faq li.on .faq1 h4{ background-position:0 -27px;}
+.faq li.on .faq1 h4 span{ display: none;}
+.faq li.on .faq1 h4 em{ display: block;}
+/**************软件下载**************/
+.loaddown{ clear: both; overflow: hidden; padding:20px 10px 10px;}
+.loaddown a,.loaddown span{ float: left; color: #fff; padding: 0 5px; margin: 0 5px 5px 0; display: inline-block; overflow: hidden; background: #828282; border-radius: 2px; cursor: pointer;}
+.loaddown span{ padding: 0 10px;}
+.loaddown a.hover,.loaddown span.hover{ background: #ca0d12;}
+.khlc{ clear: both; overflow: hidden; padding: 10px 0; line-height: 2.2;}
+.khlc .flow{ display: none; clear: both; overflow: hidden;}
+.loaddown1{ clear:both; overflow: hidden; padding: 0 10px 10px;}
+.loaddown1 li{ clear: both; overflow: hidden; padding: 10px 0;}
+.loaddown1_1{ float: left; width:90px; margin-right: 10px; display: inline-block; overflow: hidden;}
+.loaddown1_1 img{ width: 100%; *width:88px; border: 1px solid #e0e0e0;}
+.loaddown1_2{ overflow: hidden; line-height:30px;}
+.loaddown1_3{  clear: both; overflow: hidden;}
+.loaddown1_3 h4{ float:right; font-weight:lighter; overflow:hidden; display:inline-block; margin-left:8px; color:#fff; background:url(../images/faq_1.png) no-repeat 0 -27px;height:27px; text-align:center; padding-left:6px; line-height: 27px;}
+.loaddown1_3 h4 a{ display: block; color: #fff;}
+.loaddown1_3 p{ color: #ca0d12; overflow: hidden;}
+.loaddown1_4{ clear: both; overflow: hidden; height: 0;}
+.loaddown1_5{ clear: both; overflow: hidden; color: #ff9000;}
+.loaddown1_5 span{ display:block; cursor: pointer;}
+.loaddown1_5 p{ display: none; cursor: pointer;}
+.loaddown1 li.hover .loaddown1_4{ height: auto;}
+.loaddown1 li.hover .loaddown1_5 p{ display: block;}
+.loaddown1 li.hover .loaddown1_5 span{ display: none;}
+/**************活动中心**************/
+.activity{ clear: both; overflow: hidden; padding: 5px;}
+.activity li{ float: left; width:50%; padding:5px; overflow: hidden; position: relative;}
+.activity li em{ clear: both; overflow: hidden; display: block;}
+.activity li em img{ width: 100%;}
+.activity li i{ position: absolute; right: 0; top:20px; color: #fff; text-align: center; background: url(../images/active.png) no-repeat 0 0; height: 50px; width: 58px; font-style: normal; display: block; padding: 5px 3px 0 0; line-height: 18px; *height: 45px; display: none;}
+.activity_1{ /*border: solid #e1e1e1; border-width: 0 1px 1px; padding: 5px; */clear: both; overflow: hidden;}
+.activity_1 h3{ height: 30px; line-height: 30px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 14px; text-align: center;}
+.activity_1 h3 a{ color: #ca0d12;}
+.activity_1 small{ display: none; clear: both; height: 30px; line-height: 30px; font-size: 12px; color: #929292; overflow: hidden;}
+.activity_1 p{ line-height: 22px; height: 66px; overflow: hidden; display: none;}
+.activity_1 span{ display: none; clear: both; padding: 5px 0;}
+.activity_1 span a{ float: right; color: #fff; background: #ff9000; border-radius:2px; line-height: 22px; height: 22px; display:inline-block; overflow: hidden; font-size: 12px; padding: 0 8px;}
+
+.activity1_v,.activity1{ clear:both;padding:20px 10px; line-height:34px; font-size:12px}
+.activity1_v th,.activity1_v td label{ display: none;}
+.activity1_v td .act_w1{ width: 100%;}
+.activity1_b1 th,.activity1_b1 td{ padding:10px 0}
+.activity1_b1 th{ text-align:right; vertical-align:top; color:#000; font-weight:lighter; padding-right:10px !important; width:23%}
+.activity1_b1 td label{ float:left; color:#8a8a8a; /*display:inline-block;*/ overflow:hidden}
+.act_i{ border:1px solid #cdcdcd; background:url(../images/active2.jpg) repeat-x; padding:0 10px; line-height:32px; height:34px; *height:32px; overflow:hidden; float:left; margin-right:10px; outline:none}
+.act_w1{ width:65%} 
+.act_w2{ width:38%}
+.activity1_b1 td em{ margin:7px 10px 7px 0; float:left; display:inline-block; height:20px}
+.activity1_b1 td em img{ border:1px solid #cdcdcd; height:20px; *height:18px; vertical-align:top}
+.activity1_b1 td span{ color:#8a8a8a; cursor:pointer}
+.act_i1{ border-radius:3px; width:30%; float:left; margin:0 15px 0 0; display:inline-block; height:36px; font-size:16px; color:#fff; cursor:pointer; text-align:center; padding:0; outline:none; *height:34px}
+.act_b1{ border:1px solid #ca0d12; background:#dd1c22}
+.act_b2{ border:1px solid #ff9b19; background:#fab500}
+.activity1_b2{ text-align:center; line-height:1.5;}
+.activity1_b2 th,.activity1_b2 td{ padding:15px 5px}
+.activity1_b2 th{ border:dotted #d9d9d9;border-width:0 1px 0 0;}
+.activity1_b2 td{ border:dotted #d9d9d9;border-width:0 1px 1px 0;}
+.activity1_b2 th{ background:#ca0d12; font-weight:lighter; color:#fff}
+.activity1_b2 td.activ_db{ border-width:0 1px 1px}
+.activity1_b2 th.activ_nb{ border-width:0}
+.activity1_b2 tr.activ_even td{ background:#fafafa}
+.activity1_1{ clear:both; overflow:hidden; padding:10px; color:#ff9000}
+.activity1_2{ border: 1px dashed #d2d2d2; border-radius: 2px; background: #fafafa; margin: 20px 10px 0; padding: 10px; clear: both; overflow: visible;}
+.activity_select{ clear: both; width: 100%; position: relative; color: #686868;}
+.act_s{ border-radius: 3px; background:url(../images/active_2.jpg) no-repeat right center #fff; height: 32px; line-height: 30px; *height: 30px; border: 1px solid #d8d8d8; padding: 0 20px 0 10px; width: 100%; display: block; cursor: pointer; *width: 96%;}
+.activity_select ul{ display: none; position: absolute; left: 0; top: 31px; background: #fff; border:1px solid #d8d8d8; padding: 10px; width: 100%;max-height:210px; overflow-y: scroll !important;}
+.activity_select ul li{ clear: both; overflow: hidden;}
+.activity_input{ clear: both; overflow: hidden; padding: 10px 0;}
+.activity_input input{ outline: none; border-radius: 3px; background:#fff; height: 32px; line-height: 30px; *height: 30px; border: 1px solid #d8d8d8; padding: 0 10px; width: 100%; color: #686868; *width: 85%;}
+.activity_input1 input{ border-radius: 3px; background: #ca0d12; color: #fff; height: 32px; line-height: 32px; padding: 0 30px; overflow: hidden; cursor: pointer; outline: none; border: 0;}
+/**************开户流程**************/
+.flow{ padding:10px;}
+.flow img{ max-width:90%; display:block; margin:0 auto}
+/**************客户投诉与建议**************/
+.main1{ padding:10px}
+.customer{ clear:both; overflow:hidden}
+.customer li{ clear:both; overflow:hidden; border-bottom:1px dotted #afafaf; padding:10px 0}
+.customer_1{ clear:both; overflow:hidden; margin-bottom:5px; color:#c51400}
+.customer_1 span{ display:none; color:#aeaeae; float:right; margin-left:3%}
+.customer_1 p{ background:url(../images/customer_1.png) no-repeat 0 7px; padding-left:20px; overflow:hidden; /*white-space:nowrap; text-overflow:ellipsis;*/}
+.customer_2{ clear:both; overflow:hidden; padding:10px 0}
+.customer_2 .customer_3{ float:right; margin-left:5%; color:#aeaeae; display:none}
+.customer_2 .customer_4{ overflow:hidden}
+.customer_2 .customer_4 em{ float:left; font-style:normal; display:inline-block; overflow:hidden; background:url(../images/customer_2.png) no-repeat 0 center; padding-left:20px}
+.customer_5{ overflow:hidden}
+.customer1{ border-bottom:1px dotted #e3e3e3; font-size:18px; color:#c51400; padding:10px 0 5px}
+.customer2{ padding:20px 0 10px}
+.customer2 td,.customer2 th{ padding:10px 0; line-height:30px;}
+.customer2 table th{ text-align:right; font-weight:lighter; padding-right:10px; width:95px; vertical-align:top}
+.customer2 th span{ color:#f00}
+.customer2_2{ border:1px solid #dbdbdb; line-height:28px; height:30px; *height:28px; padding:0 5px; float:left; display:inline-block; overflow:hidden; outline:none}
+.customer2_w1{ width:100%; max-width:340px}
+.customer2_w2{ width:70px; text-align:center}
+.customer2 td em{ margin:4px 10px; float:left; display:inline-block; height:22px}
+.customer2 td em img{ border:1px solid #dbdbdb; height:22px; *height:20px; vertical-align:top}
+.customer_text{ border:1px solid #dbdbdb; line-height:28px; padding:5px; float:left; width:100%; max-width:490px; resize:none;}
+/**************联系我们**************/
+.contact{ clear:both; overflow:hidden; padding:10px 0; border-bottom:1px dashed #d9d9d9}
+.contact dt{ clear:both; overflow:hidden; font-size:18px; color:#ca0d12}
+.contact dd{ background:url(../images/contact_2.png) no-repeat 0 5px; padding-left:20px; color:#3e3e3e}
+.contact_1{ padding:15px 0; clear:both; overflow:hidden}
+.contact_1 img{ width:100%} 
+.contact_2{ clear:both; overflow:hidden; line-height:36px; padding:10px 0}
+.contact_2 li{ clear:both; overflow:hidden}
+.contact_2 li span{ display:block; clear:both; overflow:hidden}
+.contact1{ clear:both; overflow:hidden; padding:10px 0}
+.contact1 li{ clear:both; overflow:hidden; background:url(../images/contact1_2.png) repeat-y 73px}
+.contact1 li .contact1_1{ float:left; background:url(../images/contact1_1.png) no-repeat right center; display:inline-block; overflow:hidden; margin-right:10px; width:80px;}
+.contact1 li .contact1_1 span{ background:url(../images/contact1.png) no-repeat 0 0; padding-left:5px; line-height:18px; height:18px; width:63px; *width:58px; display:inline-block; color:#fff}
+.contact1_2{ overflow:hidden; color:#3e3e3e; line-height:2.2}
+.contact_article{ clear:both; overflow:hidden; font-size:16px; color:#3e3e3e}
+.contact_article img{ max-width:100%}
+
+.contact_article table{ border:solid #d7d7d7; border-width:2px 0 0 1px;text-align:center; }
+.contact_article table td{ border:solid #d7d7d7; border-width:0 1px 1px 0; padding:10px; background:#fff}
+.contact_fc{ clear:both; overflow:hidden; padding:10px 5px;}
+.contact_fc li{ float:left; width:50%; padding:5px; overflow:hidden; text-align:center}
+.contact_fc li em{ display:block; clear:both; overflow:hidden; width:100%; padding-bottom:5px}
+.contact_fc li em a{ display:block; border:3px solid #c3c3c3}
+.contact_fc li img{ width:100%}
+.contact_fc li p a{ display:block; clear:both; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.contact_fc li:hover em a{ border-color:#ca0d12}
+.contact_list li{ clear:both; overflow:hidden; border-bottom:1px dashed #d9d9d9; line-height:43px;}
+.contact_list li em{ float:right; background:url(../images/contact_list.png) no-repeat 0 0; height:19px; line-height:19px; width:79px; padding-left:6px; text-align:center; *width:73px; margin:12px 10px 12px 0; display:none; color:#fff; font-size:12px; font-style:normal}
+.contact_list li p{ background:url(../images/faq_2.png) no-repeat 5px center; padding-left:25px; overflow:hidden}
+.contact_list li p a{ white-space:nowrap; text-overflow:ellipsis; overflow:hidden; display:block}
+.contact_list li.contact_odd{ background:#fafafa}
+
+.contact_employ th{ font-weight:lighter; text-align:center; font-size:12px; text-align:right; line-height:35px; width:33% ; color:#686868}
+.contact_employ th,.contact_employ td{ padding:10px 0;}
+.contact_employ td{ padding-left:10px;}
+.bus_i,.bus_t,.bus_i1{ font-size:14px; color:#686868; outline:none;background:#fff; border:1px solid #e4dfc4; border-radius:3px; padding:0 5px; overflow:hidden}
+.bus_i{ height:33px; line-height:33px; width:80%;}
+.bus_t{ line-height:28px; width:90%; padding:0 5px; resize:none;}
+.bus_i1{ width:100px; text-align:center; line-height:33px; height:33px; float:left}
+.bus_i4{padding:5px 0 0 10px; display:inline-block; overflow:hidden; float:left}
+.bus_i2,.bus_i3{ text-align:center; height:36px; border-radius:6px; color:#fff; float:left;display:inline-block; overflow:hidden; font-size:16px; width:90px; cursor:pointer; background:#ff9000; border:0; outline: none;}
+.bus_i2{ margin-right:15px; background:#ca0d12 !important}
+.contact_world1{ clear: both; overflow: hidden; padding: 10px;}
+.contact_world1 img{ max-width: 100%; display: block; margin: 0 auto;}
+.contact_world{ clear: both; overflow: hidden; border-top: 1px dashed #e5e5e5; padding: 20px 10px;}
+.contact_world li{ float: left; width: 50%; padding: 0 0 0 3%; display: inline-block; line-height:40px ;}
+.contact_world li a{ background: url(../images/faq_2.png) no-repeat 0 center; padding-left: 20px; white-space: nowrap; display: block; overflow: hidden;}
+.contact_world2{ clear: both; overflow: hidden; color: #000; border-bottom: 1px dashed #e5e5e5; padding: 10px; }
+.contact_world3{ padding: 10px; line-height: 2.2;}
+contact_world2 img{ max-width: 100%;}
+/**************人力资源**************/
+.hr{ clear:both; overflow:hidden; color:#686868}
+.hr li{ clear:both; overflow:hidden; padding:8px 0; border-bottom:1px solid #d8d8d8; }
+.hr_1{line-height:40px; clear:both; overflow:hidden}
+.hr big{ float:left; font-size:16px; overflow:hidden; margin-right:10px; color:#e0e0e0; font-size:18px; line-height:40px; }
+.hr_r{ overflow:hidden}
+.hr_2{ float:left; display:inline-block; font-size:14px; margin-right:10px;}
+.hr_3{ display:none; font-size:14px;}
+.hr_3 span{ margin-left:10px;}
+.hr_4,.hr3{ float:right; background:url(../images/rczp_2.png) no-repeat 0 center; padding-left:15px; cursor:pointer}
+.hr3{ display:none}
+.hr_5{ float:right; background:url(../images/rczp_1.png) no-repeat 0 center; padding-left:12px; display:none}
+.hr_5 a{ color:#686868}
+.hr2{ clear:both; overflow:hidden; padding:5px 0; display:none}
+.hr2 .hr2_1,.hr2_1{ color:#fff; padding:0 15px; overflow:hidden; text-align:center}
+.hr2_2{ overflow:hidden; padding-top:10px}
+.hr2 dt,.hr2 dd{ clear:both; overflow:hidden; padding-bottom:10px;}
+.hr2 dt,.hr_border{ border-top:1px solid #e60012}
+.hr2 dt .hr2_1,.contact_article .hr2_1,.hr2_1{ background:#e60012}
+.hr2 dd{ border-top:1px solid #fdbf00}
+.hr2 dd .hr2_1{ background:#fdbf00}
+.hr li.hover{ border-bottom:0 !important}
+.hr li.hover .hr3,.hr li.hover .hr_5{ display:inline-block}
+.hr li.hover .hr_4{ display:none}
+.hr li.hover big{ color:#c51400}
+.hr li.hover .hr_2{ font-size:16px; color:#c51400}
+/**************经纪业务**************/
+.work{ clear:both; overflow:hidden; padding:10px; position:relative}
+.work .slick-prev,.work .slick-next{ background:url(../images/work.png) no-repeat 0 0; width:20px; height:20px; position:absolute; border:0; bottom:0; z-index:7; outline:none; cursor:pointer; padding: 0;}
+.work .slick-prev{ right:40px}
+.work .slick-next{ right:10px; background-position:-20px 0 !important}
+.work .slick-prev:hover{ background-position: 0 -20px;}
+.work .slick-next:hover{ background-position: -20px -20px !important;}
+.work .work_zr1 img{ width: 100%; padding-bottom: 5px;}
+.work_zr2{ overflow: hidden;}
+.work .work_zr2 em{ color:#bfbfbe ; font-style: normal; margin-top: 5px; display: block; clear: both; overflow: hidden;}
+.work .work_zr2 big a{ color: #991f24;}
+.work_article{ clear:both; overflow:hidden; padding:10px 0; text-align:center; color:#a5a5a5}
+.work_article h1{ font-weight:lighter; color:#991f24; font-size:20px; padding:5px 0; line-height:1.5; margin:0 0 10px}
+.work_article p{ background: #fafafa; font-size: 12px;}
+.work_article p em{ font-style:normal; margin:0 10px; display:none}
+.work_article p span{ margin:0 10px}
+.work_article1{ clear:both; overflow:hidden; padding:15px 0; line-height:2.2; font-size:14px;}
+.work_article1 img{ max-width:100%}
+/*.wor_big{ clear:both; overflow: hidden; padding: 10px 0;}*/
+.wor_big a{font-size: 16px; background:#cdcdcd; padding: 0 10px; display: inline-block; overflow: hidden; color: #fff;float: right;}
+.work_img{ clear: both; overflow: hidden; text-align: center; padding: 20px 0 30px;}
+.work_img img{ max-width: 100%;}
+.work2{ border-top:1px dashed #d3d2d2; padding:20px 0 0; clear:both; overflow:hidden; font-size:14px;}
+.work2 dd{ clear:both; overflow:hidden; padding-bottom:10px}
+.work2 dd big{ display:block; clear:both; overflow:hidden; font-size:16px; color:#e60012; padding-bottom:5px}
+.work2 dd p{ padding:2px 0; line-height:24px; clear:both; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.work2 dd p span{ color:#fff; background:#cdcdcd; padding:0 10px; display:inline-block; overflow:hidden; float:left; margin:2px 8px 2px 0; line-height:20px; height:20px;}
+.work2 dd p a{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis; color:#4a4a4a}
+.work2 dd p a:hover{ color:#cc0100}
+.work2 dt{ clear:both; overflow:hidden}
+.work2 dt .fx{ display:none; padding-bottom:20px; clear:both; overflow:hidden}
+.work2 dt .fx1{ border-radius:3px; border:1px solid #e7e7e7; float:right; overflow:hidden; background:#efefef; padding:0 10px}
+.work2 dt .fx1 span{float:left}
+.work2 dt .return{ font-size:12px; float: right;}
+.work2 dt .return a{ border-radius:24px; height:26px; *height:24px; border:1px solid #d6d6d6; background:url(../images/return.jpg)  repeat-x; display:inline-block; padding:0 20px; overflow:hidden; line-height:24px; color:#f5af23}
+
+.work3{ margin-bottom:15px;background:#fff; clear:both; overflow:hidden}
+.work3_pic{ padding: 10px 0; clear: both; overflow: hidden;}
+.work3_pic li{ float: left; width:44%; margin:10px 3%; font-size: 12px; position: relative;}
+.work3_pic li img{ width: 100%;}
+.work3_pic p{ text-align:center;overflow:hidden; margin-top: 5px;}
+.work3_pic p a{ display: block; clear: both; overflow: hidden; center; white-space: nowrap; text-overflow: ellipsis; }
+
+.work4{ clear: both; overflow: hidden; background: #fff;}
+.work4_1{ padding: 10px; clear: both; overflow: hidden;}
+.work4_top{ clear: both; overflow: visible; border-bottom: 1px solid #ddd8d7; line-height: 35px;}
+.work4_top .more{ float: right; font-size: 12px; margin: 0 10px; display: inline-block;}
+.work4_top1{ float: left; border-bottom: 3px solid #ff6f00; position: relative; z-index: 1; margin-bottom: -2px; color: #000; font-size: 14px; padding-right: 5px; margin-right: 5px;}
+.work4_top2{ overflow: hidden; line-height: 22px; padding: 6px 0 7px;}
+.work4_top2 span{ float: left; padding: 0 5px;display: inline-block; border-radius: 2px; font-size: 12px; color:#000}
+.work4_top2 span.on{ background: #ca0d12; color: #fff;}
+.work4_2{ clear: both; overflow: hidden; padding: 5px 0; line-height: 36px;}
+.work4_2 li{ clear:both; overflow: hidden; border-bottom: 1px dashed #d2d2d2;}
+.work4_2 li a{ display: block; clear: both; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.work4_3{ clear: both; overflow: hidden;}
+.work4_3 .work4_2{ display: none;}
+.main_right1.time{ padding-bottom: 0;}
+
+/**************风险管理**************/
+.risk{ font-size: 16px; line-height: 2.2; color: #3e3e3e;}
+.risk table{ font-size: 14px;border: dashed #d9d9d9; border-width:1px 0 0 1px; color: #000;}
+.risk_table table th,.risk_table table td{ padding: 10px; border: dashed #d9d9d9; border-width: 0 1px 1px 0;}
+.risk_table table th{ font-weight: lighter; max-width: 150px; width: 25%;}
+.risk img{ margin: 0 auto; max-width: 95%; display: block; clear: both; overflow: hidden;}
+.risk_even{ background: #fafafa;}
+
+/**************会员中心**************/
+.center_top{ clear: both; overflow: hidden; border-top: 1px solid #e0e0e0; padding: 10px 0; color: #000; line-height: 36px;}
+.center_top a{ float: right; color: #000;}
+.center_top strong{ font-size: 16px;}
+.center_sign{ clear: both; overflow: hidden; padding: 10px 0 20px;}
+.center_sign1{ clear: both; overflow: hidden;}
+.center_sign1 em{ float: left; width: 25%; max-width: 110px; overflow: hidden; margin-left: 10px; display: inline-block;}
+.center_sign1 em img{ width: 100%;}
+.center_sign2{ overflow: hidden;}
+.center_sign2 li{ clear: both; overflow: hidden; line-height: 26px; color: #000; font-size: 12px;}
+.center_sign2 li p{ float: left; margin-right: 8px; display: inline-block;}
+.center_sign2 li big{ font-size: 18px; font-weight: bold; margin-right: 10px;}
+.center_sign2 li span{ color: #d11620;}
+.center_sign2 li a{ border-radius: 4px; color: #fff; width: 40%; max-width: 110px; margin:8px 3% 0 0; display: inline-block; float: left; line-height: 30px; text-align: center; overflow: hidden;}
+.c_1{ background: #d11620;}
+.c_2{ background: #ffa300;}
+.center_sign3{ padding-top: 20px; clear: both; overflow: hidden;}
+.center_sign3 span{ float: left; line-height:20px; background: url(../images/center1_1.png) no-repeat 0 center; height: 40px; padding-left: 25px;}
+.center_sign4{ background: url(../images/center1_2.png) no-repeat 0 0; height: 39px; width:110px; float: left ; margin: 0 5px; display: inline-block; line-height: 39px; text-align: center;}
+.center_sign4 em{ float:left; font-style: normal; width:57px; color:#ff8a00; display: inline-block;}
+.center_sign4 big{ float:left; width: 53px; font-size: 16px; color: #fff; cursor: pointer;}
+#Shady{background:url(../box/overlay.png) repeat 0 0;position:fixed; width:100%; height:100%;_position:absolute; top:0; left:0; z-index:100; overflow:hidden;filter:alpha(opacity:50); opacity:.5; min-width: 320px; display: none;}
+.center_note{ position: fixed; top: 20%; left:0; clear: both; overflow: hidden; z-index: 101; width: 100%;min-width: 320px; _position:absolute; _margin-top: 20%;_top:0; display: none;}
+.center_note1{ margin: 0 auto; width: 100%; max-width: 400px; background:url(../images/overlay.png) repeat 0 0;padding: 7px; border-radius: 7px;}
+.center_note2{ line-height: 34px; background: #d44048; color: #fff; padding: 0 10px; clear: both; overflow: hidden; }
+.center_note2 a{ float: right; margin: 10px 0; height: 14px;}
+.center_note2 a img{ vertical-align: top;}
+.center_note3{ background:url(../images/center_note.jpg) no-repeat 15px 25px #fff; padding: 15px 15px 15px 60px; color: #a5a5a5;}
+.center_note3 big{ display: block; clear: both; overflow: hidden; font-size: 14px; color: #666;}
+.center_note4{ background:#fff; clear: both; overflow: hidden;}
+.center_note4 span.note_close{ background:#d11620; color: #fff; width: 80px; line-height: 32px; overflow: hidden; margin: 20px auto; display: block; text-align: center; cursor: pointer; }
+.center_1{ clear: both; overflow: hidden; padding-bottom: 15px;}
+.center_1 li{ clear: both; overflow: hidden; line-height: 32px; height: 32px; overflow: hidden; }
+.center_1 li span{ float: right; margin-left: 5px; display: inline-block; overflow: hidden;}
+.center_1 li p{ overflow: hidden; white-space: nowrap;text-overflow: ellipsis;background: url(../images/center1_1.jpg) no-repeat 0 center; padding-left: 15px;}
+.center_2{ padding: 10px 0;}
+.center_2 table{ text-align: center; vertical-align: middle; line-height: 30px; margin-bottom: 10px; table-layout: fixed; word-break: break-word;}
+.center_2 table th,.center_2 table td{ padding: 8px 5px;}
+.center_2 table th{ font-weight: lighter; background: #f3f3f3; color: #000;}
+.center_2 table td{ border-bottom: 1px dashed #d9d9d9;}
+.center_2 table td small{ font-size: 12px;}
+.center_2 table td strong{ color: #ca0d12;}
+.center_right{ padding: 10px 0;}
+.center_m1{ clear:both; overflow: hidden; line-height: 32px;}
+.center_t1{ vertical-align: middle; }
+.center_t1 th,.center_t1 td{ padding: 10px 0;}
+.center_t1 th{ font-weight: lighter; text-align: right; width: 28%; max-width:130px;}
+.center_t1 th span{ color: #f00; margin-right: 5px;}
+.center_t1 tr td{ padding: 10px; font-size: 12px;}
+.center_t1 td span{ color: #2f8400;}
+.center_t1 td img{ margin: 0 10px;}
+.center_t1 td small{ font-size: 12px;}
+.center_t2 input{ vertical-align: middle;}
+.center_t2 label{ padding: 0 8px;}
+.center_m2{ border: 1px solid #ccc; outline: none; resize: none; line-height: 30px; border-radius: 1px;}
+.center_m_w1{ width: 70%; height: 32px; *height: 30px; padding: 0 5px; max-width: 200px;}
+.center_m_w2{ width:100%; height: 32px; *height: 30px; padding: 0 5px; max-width: 310px;}
+.center_m_w3{ width: 100%; padding: 5px;}
+.center_t3 select{ outline: none; margin-right: 3%; max-width: 26%;}
+.center_m3{ clear:both; overflow: hidden; padding: 10px 10px 10px 28%;}
+.center_m3 em{ display: block; clear: both; overflow: hidden; width: 92px; *width: 90px; border: 1px solid #f5f5f5; margin-left: 10px;}
+.center_m3 p{ clear: both; overflow: hidden; height: 30px; line-height: 30px; width: 92px; position: relative; margin-left: 10px; text-align: center;}
+.center_m3 span{ display: block; clear: both; overflow: hidden; color: #9c9c9c;}
+.center_m3 input{ filter:alpha(opacity:0);opacity: 0;  left: 0; top: 0; width: 100%; position: absolute; z-index: 1; cursor: default;}
+.center_m4{ clear: both; overflow: hidden; padding: 10px 10px 10px 28%;}
+.center_mi{ color: #fff; background: #dd1c22; font-size: 16px; height: 36px; border-radius: 3px;border:1px solid #ca0d12; width: 150px;  text-align: center; outline: none;}
+
+.center_active{ clear: both; overflow: hidden; padding: 0 5px;}
+.center_active li{ float:left; width: 50%; padding:5px; overflow: hidden; font-size: 12px;}
+.center_active li em,.center_gift li em{ display: block; clear: both; overflow: hidden;}
+.center_active li em img,.center_gift li em img{ width: 100%;}
+.center_active1{ border: solid #e1e1e1; border-width: 0 1px 1px; padding:5px 3%; clear: both; overflow: hidden;}
+.center_active li big{ font-size:12px; overflow: hidden; display: block; clear: both; height:30px; line-height: 30px;}
+.center_active li big a{ color: #ca0d12; display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.center_active li p{ height: 44px; line-break: 22px; overflow: hidden; color: #929292;}
+.center_active li .center_active2 a{ float: right;}
+.center_active2{ padding: 3px 0; clear: both; overflow: hidden; line-height: 32px;}
+.center_active2 span{ border-radius:2px; background: #ff9000; color: #fff; width:50%; text-align:center;display: inline-block; max-width: 90px;}
+.center_active2 span.end{ background: #7f7f7f;}
+.center_gift{ clear: both; overflow: hidden; padding: 5px;}
+.center_gift li{ float:left; width:50%; padding:5px; overflow: hidden; line-height: 32px; font-size: 12px;}
+.center_gift1{ background: #f3f3f3; padding: 5px 3% 15px; clear: both; overflow: hidden;}
+.center_gift1 big{ font-size: 14px; display: block; clear: both; overflow: hidden;}
+.center_gift1 big a{ white-space: nowrap; text-overflow: ellipsis; display: block; overflow: hidden; color: #000;}
+.center_gift1 big a:hover{ color: #CA0D12;}
+.center_gift2{ clear: both; overflow: hidden; height: 64px;}
+.center_gift2 span{ float: left;}
+.center_gift2 a{ float: left; padding: 0 5px; display: inline-block; height: 32px;}
+.center_gift2 a img{vertical-align: top; margin: 12px 0;}
+.center_gift2 input{ float: left; border:1px solid #7f9db9; line-height: 20px; height: 22px; *height: 20px; width: 40px; text-align: center; color: #000; outline: none; margin: 5px 0;}
+.center_gift2 p{ clear: both;}
+.center_gift2_1 span{ color: #ca0d12;}
+.center_gift3{ clear: both; overflow: hidden; margin-top: 8px; text-align: center; height: 32px;}
+.center_gift3 a{ width: 115px; height: 32px; display:inline-block; color: #fff; background: #ffa300; overflow: hidden; border-radius: 3px;}
+.center_message1{ text-align: center; padding: 10px 0;  border-bottom: 1px dashed #e2e2e2;}
+.center_message1 h1{font-size: 18px; font-weight: lighter;color: #000; padding: 5px 0; line-height: 1.4;}
+.center_message1 p{ clear: both; overflow: hidden; color: #ababab; padding: 5px 0 10px;}
+.center_message1 p span{ margin: 0 10px;}
+.center_message2{ line-height: 2.6; padding: 25px 0;}
+.center_message2 img{ max-width: 100%;}
+
+.center_password{ clear: both; overflow: hidden; padding: 10px 0; font-size: 12px; color: #666; line-height: 30px;}
+.center_password th{ width: 20%; padding: 10px 0; text-align: right; font-weight: lighter; vertical-align: top;}
+.center_password td{ padding: 10px;}
+.center_password td label{ display: inline-block; overflow: hidden; margin-left: 10px; color: #c0c0c0; float: left;}
+.center_password1{ border: 1px solid #ccc; height: 30px; line-height: 28px; *height: 28px; float:left; padding: 0 10px; width: 100%; max-width: 200px; display: inline-block; overflow: hidden;}
+.center_password2{ font-size: 16px; color: #fff; border-radius: 4px; width: 80%; max-width: 160px; text-align: center; background: #dd1c22; border: 1px solid #ca0d12;outline: none;cursor: pointer; line-height: 34px;}
+.center_addr{ clear: both; overflow: hidden; margin-top: 10px;}
+.center_addr_1{ text-align: center;}
+.center_addr_1 input{ vertical-align: middle;}
+.center_addr table{ border-top:3px solid #ca0d12; font-size: 12px; color: #000;}
+.center_addr table th{ text-align: right; padding: 10px 5px; font-weight: lighter;}
+.center_addr table td{ padding: 10px 5px;}
+.center_addr table th span{ display: inline-block;}
+.center_addr table th a{ margin-left: 5px; color: #000; display: inline-block;}
+.center_addr table tr.on th span{ display: none;}
+.center_addr table tr.hover td,.center_addr table tr.hover th{ background: #f2f2f2;}
+.center_addr1{ clear: both; overflow: hidden; padding: 20px 30px 0; line-height: 30px; text-align: center;}
+.center_addr1 span{ display: inline-block; overflow: hidden; width: 110px; height: 30px; float: left; color: #fff; background: #ff9000; font-size: 16px; cursor: pointer;}
+.center_addr2{ clear: both; overflow: hidden; padding-top: 20px; display: none;}
+.center_addr2_1{ border-top: 3px solid #ca0d12; padding: 15px 0 10px; font-size: 16px; color: #ff9000;}
+.center_addr3{ background: #f8f8f8; border: 1px solid #ececec; clear: both; overflow: hidden; padding: 10px 5px; position: relative; line-height: 24px; font-size: 12px; }
+.center_close{ position: absolute; right: 5px; top: 5px; color: #f50002;cursor: pointer; z-index: 1;}
+.center_addr3_1 table th{ text-align: right; font-weight: lighter; padding: 6px 0; width: 25%;}
+.center_addr3_1 table td{ padding: 5px;}
+.c_a{ outline: none; height: 24px; *height: 22px; line-height: 22px; border: 1px solid #e2e0dd; background: #fff; color: #000; padding: 0 5px; float: left; margin: 1px 5px 1px 0; display: inline-block; overflow: hidden;}
+.c_w1{ width:100%;max-width: 140px;}
+.c_w2{ width: 15%; max-width: 40px; }
+.c_w3{ width: 39%; max-width: 140px;}
+.center_addr3_1 td select{ width: 32%;margin-right: 2%; max-width: 140px;  *width:140px;*margin-right:10px; float: left; display: inline-block; overflow: hidden; line-height: 22px; height: 24px;}
+.center_addr3_1 .nr{ margin-right: 0 !important;}
+.c_a1{ background: #ff9000; font-size: 16px; color: #fff; cursor: pointer; padding: 0 10px; height: 30px; border: 0; outline: none;}
+/**************期货学院**************/
+.school{ margin-bottom:15px;background:#fff; clear:both; overflow:hidden}
+.school2{ clear: both; overflow: hidden; padding: 10px 0;}
+.school2 dd,.school2 dt{ clear: both; overflow: hidden; padding: 5px;}
+.school2 em{ display: block; clear: both; overflow: hidden; padding: 0 5px; width: 100%; font-style: normal; *width:424px}
+.school2 em a{ display: block; overflow: hidden; width: 100%; position: relative;}
+.school2 em a img{ width: 100%;}
+.school2 em p{ background: url(../images/school.png) repeat; height:40px; text-align: center ; width: 100%; line-height: 40px; color: #fff; position: absolute; left: 0; bottom: 0;}
+.school2 ul{ clear: both; overflow: hidden; padding: 5px 0; font-size: 12px; line-height: 40px;}
+.school2 ul li{ float: left; width: 33.333%; padding: 5px; overflow: hidden; text-align: center; *width: 134px;}
+.school2 ul li a{ display: block; height: 40px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; background: #ebebeb; }
+.school2 dt ul li{ width: 50%;*width:207px}
+/**************投资咨询**************/
+.invest{ clear: both; overflow: hidden; padding: 10px 0;}
+.invest li{ float: left; width:50%; padding: 10px; overflow: hidden; display: inline-block; }
+.invest1{ display: block; clear: both; overflow: hidden; width: 100%;position: relative;}
+.invest li em{ display: block; clear: both; overflow: hidden;}
+.invest li img{ width: 100%;}
+.invest li p{ text-align: center; font-size: 14px; overflow: hidden; padding-top: 10px;}
+.invest li p a{ display: block; clear: both; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+.invest2{ padding: 20px 0; clear: both; overflow: hidden; }
+.invest2 img{ max-width: 100%;}
+
+/**************资产管理**************/
+.pay{ line-height: 34px;}
+.pay td{ padding: 10px;}
+.pay th{ text-align: right; width: 26%; font-weight: lighter; padding: 10px 0; color: #4a4a4a;}
+.pay th span{ color: #f00; padding-right: 5px;}
+.pay .pay_1{ border: 1px solid #cdcdcd; border-radius: 4px; background: url(../images/active2.jpg) repeat-x; width: 100%; padding: 0 10px; outline: none; line-height: 32px; height: 34px; *height: 32px; max-width: 360px;}
+.pay select{ height: 34px; width: 100%;outline: none; border-radius: 4px; max-width: 360px; *width:380px}
+.pay_2,.pay_3{ border-radius: 4px; color: #fff; margin-right: 5%; width: 40%; max-width: 150px; height: 36px; *height: 34px; text-align: center; font-size: 16px; cursor: pointer; outline: none;}
+.pay_2{ border: 1px solid #ca0d12; background: #dd1c22;}
+.pay_3{ border: 1px solid #ff9b19; background: #fab500;}
+
+
+
+@media only screen and (min-width: 640px) { 
+.center_gift li{ font-size: 14px;}
+.center_gift1 big{ font-size: 16px;}
+.center_gift2{height: 32px;}
+.center_gift2 a{padding: 0 8px; }
+.center_gift2 p{ clear: none; float: left; margin-left: 5px; display: inline-block;}
+}
+
+@media only screen and (min-width: 768px) {
+/*.banner a{ height:466px }*/
+.banner .slick-prev,.banner .slick-next{ display:block !important; left:50%}
+.banner .slick-prev{ margin-left:-384px}
+.banner .slick-next{right:auto; margin-left:354px}
+/**************index_top**************/
+.index_top ul li{ font-size:18px; background:url(../images/index_top1.png) repeat-y right; padding:15px}
+/**************index1**************/
+.index_1.beijing{ padding:10px 0}
+.index1{ float:left; margin:0 4% 25px 0; width:48%;clear:none;}
+.index1_nr{ margin-right:0}
+.index1_2{ padding:15px}
+.index1_2 dl dt{padding-bottom:15px;}
+.index1_2 dl dt em{ margin-right:15px;}
+.index1_3 p a{ display:inline-block}
+.index3{padding:15px 0}
+.index_3 .index1{ width:32%; margin:0 2% 25px 0}
+.index_3 .index1.index1_nr{ margin-right:0 !important}
+/**************友情链接**************/
+.lj{ padding: 5px 0 20px;font-size: 12px;}
+.lj dd{ padding:2px 25px; }
+.lj dd h4{ color: #000;float: left; overflow: hidden; display: inline-block; margin-right: 5px;}
+.lj dd p a{ display: inline-block; padding: 0 3px;}
+.lj dd p{ overflow: hidden;}
+
+/****************************内页****************************/
+
+/**************常见问题**************/
+.faq{padding:10px 20px}
+/**************软件下载**************/
+.loaddown{padding:20px 20px 10px;}
+.loaddown a{ padding: 0 8px; margin: 0 10px 5px 0;}
+.loaddown1{ padding: 10px 20px;}
+.loaddown1_3 p{ white-space: nowrap; text-overflow: ellipsis;}
+.loaddown1_4{ height: 60px;}
+/**************活动中心**************/
+.activity{ padding:10px 6px;}
+.activity li{ width:50%; padding:10px 14px;}
+
+.activity li i{ right: 4px; top:20px;display:block;}
+.activity_1{ border: solid #e1e1e1; border-width: 0 1px 1px; padding:10px 15px; }
+.activity_1 h3{font-size: 16px; text-align: left;}
+.activity_1 small,.activity_1 p,.activity_1 span{ display: block; }
+
+.activity1{padding:20px;}
+.activity1_v th{ display:table-cell;}
+.activity1_v td label{ display: inline-block;}
+.activity1_v td .act_w1{ width: 65%;}
+.activity1_b1 th{ width:30%}
+.activity1_1{ padding:10px 20px}
+.activity1_2{ padding: 15px; margin: 20px 20px 0;}
+.activity_select{ clear: none; width:30%; max-width: 260px; float: left;}
+
+.activity_input{ clear: none; padding: 0 15px; width: 32%; max-width: 260px; display: inline-block; float: left;}
+/*.activity_input input{ outline: none; border-radius: 3px; background:#fff; height: 32px; }
+*/
+.main1{ padding:20px}
+/**************联系我们**************/
+.contact dt{font-size:24px;}
+.contact dd{ font-size:16px;}
+.contact_2 li span{ float:left; clear:none; width:50%; padding-right:2%; display:inline-block}
+.contact_fc{ padding:10px}
+.contact_fc li{ width:33.3333%; padding:10px}
+.contact_list li em{ display:inline-block}
+.contact_employ{ padding-top:20px}
+.contact_employ th{ width:20%}
+.bus_i2,.bus_i3{ height:44px; font-size:20px; width:115px; }
+.bus_i2{ margin-right:25px;}
+.contact_world2,.contact_world3{ padding: 20px;}
+/**************人力资源**************/
+.hr{ padding-top:20px; clear:both; overflow:hidden}
+.hr big{ font-size:40px}
+.hr li.hover .hr_2{ font-size:18px;}
+.hr li.hover .hr_3{ display:inline-block}
+.hr2 .hr2_1,.hr2_1{ float:left; margin-right:15px; }
+.hr2_2{ padding-top:30px; font-size:14px;}
+.contact_article .hr2_2{ overflow: hidden;}
+/**************经纪业务**************/
+.work{ border: 5px solid #f3f3f3; margin: 10px 20px; padding: 15px;}
+.work_zr1{clear:none; float:left; margin-right:15px; width:210px;background:#fff}
+.work_zr1 img{ max-width:100%; border:0; padding:0;}
+.work_zr2{ clear:none; padding-top:0; font-size:14px;}
+.work_zr2 big{ font-size:16px; padding:5px 0 8px;}
+.work_zr2 big a{ display: block; clear: both; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.work_zr2 p{ max-height:72px; overflow:hidden}
+.work_article p em{ display:inline-block}
+.work_article1{text-align:justify}
+.work2 dd{ clear:none; padding-bottom:0; float:left; overflow:hidden; max-width:70%}
+.work2 dt{ clear:none; float:right; max-width:29%; margin-top:30px}
+.work2 dt .fx{ display:block}
+.work2 dt .return{float:right; margin-top: 20px; clear: both;}
+.contact_world li{ width: 33.333%;}
+
+/**************会员中心**************/
+.center_sign1{ clear:none; float: left; width: 62%;}
+.center_sign3{clear: none; float: right;}
+
+.center_1 li{ clear: none; display: inline-block; float: left; margin-right: 10%; width: 45%;}
+.center_1 li.center_nr{ margin-right: 0;}
+.center_message.center_1 li{ clear: both; overflow: hidden; display: block; width: 100%; margin: 0;}
+.center_right{ padding:20px;}
+.center_m1{ clear:none; float:left; width: 78%; display:inline-block;}
+.center_t1 th{ width: 22%;}
+.center_m3{ clear:none; float:left; display: inline-block; overflow: hidden; padding: 10px 0; width: 92px;}
+.center_m4{ padding: 10px 10px 10px 19%;}
+.center_active{ padding: 0 10px;}
+.center_active li{width: 50%; padding:10px; }
+.center_active1{padding:5px 5%;}
+.center_active li big{ font-size:16px; }
+.center_active li p{ height: 22px; margin-bottom: 3px; }
+.center_active2 span{ font-size: 14px;}
+
+.center_gift{ padding: 10px;}
+.center_gift li{ padding: 10px;}
+.center_gift2{height: 64px;}
+
+/**************期货学院**************/
+.school{ width: 48.5%; clear: none; float: left; margin-bottom:20px;}
+.school.school_even{ float:right}
+.shool_clear1{ clear:both; overflow: hidden; display: block;}
+.shool_clear2{ clear: both; overflow: hidden; display: none;}
+.school .work3_pic{ padding: 7px 0 8px; clear: both; overflow: hidden;}
+.school .work3_pic li{width:43%; margin:8px 3.5%;}
+.school .work3_pic p{ position: absolute; left: 0; bottom: 0; background: url(../images/work2_2.png) repeat; height: 30px; line-height: 30px; clear:both; width: 100%;}
+.school .work3_pic p a{ color: #fff;}
+
+.school2{ padding:20px  10px 0;}
+.school2 dd,.school2 dt{float:left; width: 50%; clear: none;}
+
+
+/**************投资咨询**************/
+.invest{padding: 10px;}
+.invest li p{ text-align: left; padding-top: 0; position: absolute; background:url(../images/invest_1.png) repeat; line-height: 45px; height: 45px; width: 100%; left: 0; bottom: 0; z-index: 1; padding: 0 10px;}
+.invest li p a{ color: #fff; background: url(../images/invest_2.png) no-repeat right center; padding-right:40px ;}
+
+/**************资产管理**************/
+.pay{ padding: 30px 0;}
+
+.pay th{width: 20%; font-size: 16px;}
+
+}
+
+
+
+
+@media only screen and (min-width: 960px) {
+.banner .slick-prev{ margin-left:-480px}
+.banner .slick-next{right:auto; margin-left:450px}
+
+/**************index_top**************/
+.index_top ul li{/* text-align:left*/}
+.index_top ul li em{ display:inline-block; clear:none;padding-bottom:0;/* float:left; */width:65px; margin-right:20px}
+.index_top ul li em img{ max-width:100%}
+.index_top ul li span{ display:inline-block}
+.index_top ul li a{ color:#f7941e; line-height:50px;}
+.index_top ul li.index_tb{ background:none}
+
+/**************index1**************/
+.index1{ width:34.5%; margin:0 2% 0 0;}
+.index1_3 p span{ display:inline-block}
+.index2{ clear:none; float:right; width:27%}
+.index2 li{width:100%; margin:0 0 25px 0; clear:both}
+.index2 li.index2_nr{ margin:0}
+
+/****************************内页****************************/
+
+
+/**************常见问题**************/
+.faq li .faq1{ font-size: 16px;}
+
+/**************活动中心**************/
+.activity1{font-size:14px}
+.activity1_b1 th{ font-size:16px;}
+
+/**************客户投诉与建议**************/
+.customer_1 span{ display:inline-block; overflow:hidden}
+.customer_2 .customer_3{display:inline-block}
+.contact_employ th{ font-size:14px}
+.contact_world li{ width: 25%;}
+
+/**************经纪业务**************/
+.work_zr1{margin-right:25px; width:255px;}
+.work3{ margin-bottom:0;clear:none; float: left; width:48%;}
+.work3_pic{ padding: 10px;}
+.work3_pic li{ float: left; width:46%; margin:10px 2%; font-size: 14px; position: relative;}
+.time .work3{ margin-bottom: 25px;}
+.work3.work3_r1{ float: right;}
+.work4_b{ padding: 0 5px;}
+.work4_1{ padding: 10px 5px; clear: none; float:left; width: 33.333%;}
+
+/**************会员中心**************/
+.center_m4{ padding: 10px 10px 10px 18.5%;}
+.center_active li{width: 33.333%; }
+.center_active li p{ height: 44px; margin-bottom: 3px;}
+
+.center_gift li{ width: 33.333%;}
+.center_gift2{height: 64px;}
+/**************期货学院**************/
+.school{ width:31%; margin:0  3.5% 30px 0;}
+.school.school_even{ float:left}
+.school.school_even1{ margin-right: 0;}
+.shool_clear1{ display: none;}
+.shool_clear2{ display: block;}
+
+.school .work3_pic{  padding: 10px;}
+.school .work3_pic li{width:42%; margin:10px 4% 0;}
+.school .work3_pic p{ position: static; background: none;}
+.school .work3_pic p a{ color:#686868;}
+
+/**************投资咨询**************/
+.invest li{ width: 33.333%;}
+.invest li p{ font-size: 16px;}
+.beijing .school.invest_w{ width: 48.5%; float:right; margin-right: 0;}
+.beijing .school.invest_w1{ width: 48.5%;}
+
+}
+
+
+
+@media only screen and (min-width: 1160px) {
+.banner .slick-dots {bottom:25px;}
+.banner .slick-prev{ margin-left:-580px}
+.banner .slick-next{right:auto; margin-left:550px}
+/**************index1**************/
+.index1{ width:35.5%; margin:0 3% 0 0;}
+.index2{ width:265px}
+.index2 li{margin:0 0 20px 0;}
+.index_3 .index1{ width:31.3333%; margin:0 3% 0 0}
+
+/**************活动中心**************/
+.activity li{ width:33.3333%;}
+.activity1_b2 th{ font-size:16px}
+
+/**************经纪业务**************/
+.work3{ margin-bottom:0;clear:none; float: left; width:48%;}
+.work3_pic{ padding: 7px 5px;}
+.work3_pic p{ position: absolute; left: 0; bottom: 0; background: url(../images/work2_2.png) repeat; height: 30px; line-height: 30px; clear:both; width: 100%;}
+.work3_pic p a{ color: #fff;}
+.work4_top1{font-size: 16px; padding-right: 10px; margin-right: 10px;}
+.work4_b{ padding: 0 10px;}
+.work4_1{ padding: 10px;}
+
+/**************会员中心**************/
+.center_m4{ padding: 10px 10px 10px 18%;}
+.center_active li p{ height: 22px; }
+/*.center_gift2{height:32px;}*/
+
+/**************期货学院**************/
+.school{ width:31.6%;margin:0  2.6% 30px 0;}
+.school .work3_pic{  padding: 9px 10px;}
+.school .work3_pic li{width:44%; margin:10px 3%;}
+.school .work3_pic p{ position: absolute; left: 0; bottom: 0; background: url(../images/work2_2.png) repeat; height: 30px; line-height: 30px; clear:both; width: 100%;}
+.school .work3_pic p a{ color:#fff;}
+.school2 ul{ font-size: 14px;;}
+
+}
+
+

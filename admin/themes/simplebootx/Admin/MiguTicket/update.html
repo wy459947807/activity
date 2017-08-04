@@ -53,6 +53,17 @@
                         </tr>
                         
                         <tr>
+                            <th  width="150">是否有时间限制</th>
+                            <td>
+                                <php>
+                                    $radioSelect=!empty($is_time_limit)?$is_time_limit:1
+                                </php>
+                                <label class="radio"><input style="vertical-align:middle" name="is_time_limit" type="radio" value="1"  <if condition="$radioSelect eq 1"> checked="checked" </if> />无</label>
+                                <label class="radio"><input style="vertical-align:middle" name="is_time_limit" type="radio" value="2"  <if condition="$radioSelect eq 2"> checked="checked" </if> />有</label>
+                            </td>
+                        </tr>
+                        
+                        <tr>
                             <th>有效期</th>
                             <td>
                                 <input type="text" name="start_time" class="js-datetime" value="{:date('Y-m-d H:i:s',$start_time)}" style="width: 120px;" autocomplete="off">-

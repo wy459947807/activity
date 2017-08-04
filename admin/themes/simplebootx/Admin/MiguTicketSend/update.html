@@ -1,0 +1,91 @@
+<admintpl file="header" />
+</head>
+<body>
+    <php>
+        $statusArray=array(1=>"正常",2=>"停用");
+        $typeArray=array(1=>"线上优惠券",2=>"线下优惠券");
+    </php>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('MiguTicket/index')}">优惠券列表</a></li>
+            <li  class="active"><a href="{:U('MiguTicket/update')}">添加优惠券</a></li>
+        </ul>
+        <form action="{:U('MiguTicket/update')}" method="post" class="form" id="dataUpdate" enctype="multipart/form-data">
+            <if  condition="$id neq 0">
+                <input type="hidden"  name="id" value="{$id}"/>
+            </if>
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th  width="150">类型</th>
+                            <td>
+                                <select id="type" name="type">
+                                    <foreach name="typeArray" item="vo" key="key"> 
+                                        <php>$selected=$type==$key?"selected":"";</php>
+                                        <option value="{$key}"{$selected}>{$vo}</option>
+                                    </foreach>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th  width="150">图片</th>
+                            <td>
+                                <include file="simplebootx/Admin/Public/image" type="img" /> 
+                            </td>
+                        </tr>
+      
+                        <tr>
+                            <th>券名</th>
+                            <td><input type="text" name="name"  value="{$name}" ></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>抵用金额</th>
+                            <td><input type="text" name="price"  value="{$price}" ></td>
+                        </tr>
+                        
+                        <tr>
+                            <th>券码</th>
+                            <td><input type="text" name="code"  value="{$code}" ></td>
+                        </tr>
+                        
+                        <tr>
+                            <th>有效期</th>
+                            <td>
+                                <input type="text" name="start_time" class="js-datetime" value="{:date('Y-m-d H:i:s',$start_time)}" style="width: 120px;" autocomplete="off">-
+                                <input type="text" name="end_time"  class="js-datetime" value="{:date('Y-m-d H:i:s',$end_time)}" style="width: 120px;" autocomplete="off"> &nbsp; &nbsp;
+                            </td>
+                        </tr>
+   
+                    </table>
+                </div>
+
+            </div>
+            <div class="form-actions">
+                <button class="btn btn-primary " type="button" onclick="$('#dataUpdate').submit()">点击提交</button>
+                <a class="btn" href="{:U('MiguTicket/index')}">返回</a>
+            </div>
+        </form>
+    </div>
+    <div id="killers" style="display: none"></div>
+    <script src="__PUBLIC__/js/common.js"></script>  
+    <script type="text/javascript">
+        //编辑器路径定义
+        var editorURL = GV.WEB_ROOT;
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/ueditor/ueditor.all.min.js"></script>
+
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/expand/Validform/5.3.2/Validform.min.js"></script>
+    <script src="__PUBLIC__/js/expand/strongWind.js"></script>
+
+    <script>
+        editorcontent = new baidu.editor.ui.Editor();
+        editorcontent.render('content');
+    </script>
+</body>
+</html>

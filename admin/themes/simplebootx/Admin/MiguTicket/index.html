@@ -63,7 +63,7 @@
                     <td>{:date("Y-m-d H:i:s",$vo['create_time'])}</td>
                     <td>
                         <a href="{:U('MiguTicket/update',array('id'=>$vo['id']))}">修改</a> | 
-                       
+                        
                         <a href="javascript:void(0)" onclick="deleteInfo({$vo.id})">删除</a> 
                     </td>
                 </tr>
@@ -72,7 +72,7 @@
         </table>
             
         <div class="table-actions">
-           
+            
             <button class="btn btn-primary btn-small js-ajax-submit"  type="submit" data-action="{:U('MiguTicket/deleteInfo')}" data-subcheck="true"  data-msg="你确定删除吗？">批量删除</button>
         </div>
   

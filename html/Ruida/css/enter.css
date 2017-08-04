@@ -1,0 +1,140 @@
+@charset "utf-8";
+ /*  
+*@description: 登录、注册、开户中心
+*@author: name 林异频  
+* @update: name (2015-07-22 18:32)更新 */
+/****************************登录****************************/
+.enter.beijing{ padding: 0 0 20px; overflow: hidden; background: #fff;}
+.enter_top{ border-bottom: 2px solid #e3e4e3; width:100%; float: left; clear: both; line-height: 48px;}
+.enter_top dt{ float: left; background: url(../images/enter_3.jpg) no-repeat center bottom; font-size: 18px; color:#fff; margin-bottom:-10px; position: relative; z-index: 1; padding-bottom: 10px;}
+.enter_top dt span{ background: #ca0d13; padding: 0 35px 2px; display: inline-block; position: relative; z-index: 1; margin-bottom: -2px; font-weight: bold;}
+.enter_top dd{ float: left; margin-left: 20px; font-size: 16px;}
+.enter_top dd a{ color: #ffba00;}
+.enter1{ clear: both; overflow: hidden; padding: 20px 10px;}
+.enter2 li{ clear: both; overflow: hidden; padding: 5px 0;line-height: 32px; }
+.enter2 li a{ display: block; clear:both; overflow: hidden;}
+.enter2 li a.enter-a{text-decoration: underline;color: #dd1c22;font-weight: bold;font-size: 1.2em;padding: 10px 0;}
+.enter_i{ border: 1px solid #cdcdcd; border-radius: 3px; outline:none; line-height: 32px; height: 34px; *height: 32px; padding: 0 25px 0 10px; color: #bbb;box-shadow:0 0 5px #e3e3e3,inset 0 0 3px #ededed;font-size: 12px; color: #bbb; float: left; display: inline-block; }
+.enter_i:focus{ box-shadow:0 0 5px #eef3d4,inset 0 0 3px #ededed ; border-color: #ffba00; }
+.enter2 li label{ display: block; clear: both; overflow: hidden; padding: 10px 0 0; font-size: 12px; color: #bbb; min-height: 32px; }
+.enter_w1{ width: 100%; *width: 88%;}
+.enter_w2{ width: 50%;}
+.e_b1{ background: url(../images/enter1_2.jpg) no-repeat right center #fff;}
+.e_b2{background: url(../images/enter1_1.jpg) no-repeat right center #fff;}
+.e_b3{background: url(../images/enter1_3.jpg) no-repeat right center #fff;}
+.e_b4{background: url(../images/enter1_4.jpg) no-repeat right center #fff;}
+.enter_s{ color: #fff; font-size: 16px; text-align: center; height: ; border-radius: 3px; height: 36px; line-break: 34px; *height: 34px; width: 48%; outline: none; cursor: pointer;}
+.enter_c1{ background: #dd1c22; border: 1px solid #ca0d12; float: left;}
+.enter_c2{ background: #fab500; border: 1px solid #ff9b19; float: right;}
+.enter2 li em{ float: left; margin-left: 5%; display: inline-block; border: 1px solid #cdcdcd; border-radius: 3px; cursor: pointer;*margin-top: 7px;}
+.enter2 li em img{ *vertical-align: top;}
+.enter2 li i{ float: right; border: 1px solid #c8c8c8; line-height: 24px; padding: 0 10px; font-style: normal; font-size: 12px; margin: 4px 0; cursor: pointer;}
+.enter_right{ display: none; float: right; border-left: 1px solid #efefef; padding: 10px 0 10px 12%; width: 52%; color: #000;}
+.enter_right big{ font-size: 14px; display: block; clear: both; background: url(../images/enter.jpg) no-repeat 0 center; padding:15px 0 15px 85px; line-height: 24px; margin-bottom: 10px; *padding-left: 25px !important;}
+.enter_right p span{ color: #ca0d12;}
+.enter_right p{ width: 90%; clear: both; overflow: hidden; max-width: 210px;}
+.enter_right small{ display: block; clear: both; margin-top: 15px; background: url(../images/enter_2.jpg) no-repeat right center; padding-right: 40%; max-width: 230px; *width:140px ;}
+.enter_right small img{ width: 100%; max-width: 110px;}
+
+
+
+/****************************开户中心****************************/
+.account_banner{position:relative; z-index:1;clear:both; overflow:hidden;min-width:320px; width:100%; height: 100%;}
+
+.account_banner a{ overflow:hidden; display:block; width:100%; height: 100%; background-size: auto 100% !important;}
+
+.account_banner .slick-slider,.account_banner .slick-slider .slick-list,.account_banner .slick-track,.account_banner .slick-slide{ width: 100%; height: 100%;}
+.account{ clear: both; overflow: hidden; background-size: auto 100% !important; height:200px; position: relative; }
+.account1{ background: url(../images/account3.png) repeat; position: absolute; left:50%; top:50%; width:240px;/* height: 83px;*/height: 146px; padding:0 10px; margin: -73px 0 0 -120px; z-index: 1; border-radius:10px;*width: 220px; *height: 310px;}
+/*.account1 big,.ac_1,.ac_3,.account1 dt{ display: none;}*/
+.account1 big,.ac_3,.account1 dt{ display: none;}
+.account1 big{clear: both; overflow: hidden; text-align: center;}
+.account1 dl{ clear: both; overflow: hidden; padding: 10px 0;}
+.account1 dl dd{ clear: both; overflow: hidden; padding: 8px 0; line-height: 47px;}
+.account1 dl dd a{ background: url(../images/account5.png) no-repeat 0 -62px; color: #fff; font-size: 18px; text-align: center; display: block;}
+.account1 dl dd a:hover{ background-position: 0 0;}
+.account1 dl dd a span{ padding-left: 50px; display: block;}
+.ac_1 a span{ background:url(../images/account_1.png) no-repeat 10px center;}
+.ac_2 a span{ background:url(../images/account_2.png) no-repeat 15px center;}
+.ac_3 a span{ background:url(../images/account_3.png) no-repeat 9px center;}
+.account1 dl dt{ color: #fff;font-size: 12px; padding-top: 18px; clear: both; overflow: hidden;}
+
+.account_open{ position: absolute; left: 0; top: 450px; background: url(../images/account4.png) repeat; width: 100%; height: 100%;z-index: 1120;}
+.account_open1{ margin: 0 auto; width: 495px; background: #f0f0f0; height: 100%;}
+.account_enter{ background: #ffba00; width: 495px; height: 100%; margin: 0 auto; overflow: hidden; padding: 10px 4%;}
+.account_enter big{ clear: both; overflow: hidden; border-bottom:1px dashed #fff; font-size: 40px; font-weight: bold; display: block; color: #fff; line-height: 2;}
+.account_enter1{ clear: both; overflow: hidden; padding: 15px 0; line-height: 28px; color: #000;}
+.account_enter1 td,.account_enter1 th{ padding:7px 0;font-size:14px}
+.account_enter1 th{ width: 75px; text-align: left; font-weight: lighter;}
+.account_enter_1{ border: 1px solid #cdcdcd; line-height: 28px; height: 30px; *height:28px; width:100%; padding: 0 5px; overflow: hidden; border-radius: 3px; outline: none;}
+.account_enter td span{ float: left; overflow: hidden;}
+.account_enter1 td p{ overflow:hidden;}
+.account_enter1 td p input{ vertical-align: middle; margin: 0 5px;}
+.account_enter1 td textarea{resize: none;border: 1px solid #cdcdcd; line-height: 26px;width: 100%; overflow: hidden; display: block;}
+.account_enter1 td input[name="post[verifyCode]"]{width: 60px; text-align: center;float: left;}
+.account_enter1 td em{float: left; margin-left: 10px; height:30px; display: inline-block; overflow: hidden;}
+.account_enter1 td em img{height: 100%;}
+.account_enter_2{ border-radius: 3px; border: 1px solid #ca0d12; background: #dd1c22; color: #fff; text-align: center; color: #fff; font-size: 18px; width:70%; max-width: 170px; outline: none; cursor: pointer; height:2.2em}
+.help{ overflow: hidden; padding: 30px 4%;}
+.help big{ display: block; clear: both; overflow: hidden; font-size: 30px; padding:10px 0; color: #ca0d12}
+.help_1{ background:url(../images/reserve2.png) no-repeat 20px 20px; clear: both; overflow: hidden; padding-left: 70px; color: #4a4a4a; border-bottom: 1px dashed #c2c2c2; padding-bottom: 20px;}
+.help_1 p{ clear: both; overflow: hidden; padding: 5px 0;}
+.help_1 p a{ border-radius: 3px; background: #dadada; color: #4a4a4a; padding: 0 20px; display: inline-block;}
+.help_2{ background:url(../images/reserve1.png) no-repeat 15px 20px;clear: both; overflow: hidden; padding-left: 70px; margin-top: 10px;}
+.account_return{ position: absolute; left: 50%; bottom: 0; z-index: 102; width:62px; width: 31px; margin-left: -31px; cursor: pointer;}
+
+.need{ clear: both; overflow: hidden; padding:10px;}
+.need dt{ color: #ca0d12; font-size: 18px; clear: both; overflow:hidden; font-weight: bold; padding-bottom: 10px;}
+.need dd{ float: left; width:33.333%; padding:0 10px; overflow: hidden; display: inline-block; text-align: center; color: #4b4b4b;}
+.need dd em{ display: block; clear: both; overflow: hidden;}
+.need dd em img{ max-width: 100%;}
+
+.bank{ clear: both; overflow: hidden; color: #000; font-size: 16px; }
+.bank a{ color: #000;}
+.bank1{ clear: both; overflow: hidden; padding: 15px 0 5px;}
+.bank1 li{ float: left; margin:0 2% 10px 0; display: inline-block; border: 1px solid #ededed; max-width:48%;}
+.bank1 li img{ max-height: 65px; max-width: 100%;}
+
+@media only screen and (max-width: 767px) {
+.account_open{ position: fixed; top:100%;}
+.account_open{ overflow-y: scroll;max-height: 101%;}
+.account_enter{ float: inherit; width:100%; *width:92%;  display:block; clear: both; height: auto;}
+.account_enter big{font-size:20px;}
+.help{background: #fff;}
+.help big{  font-size:18px;}
+.help_1{ background-position:20px 10px;}
+
+.help_2{ background-position:15px 10px;}
+.account_return{ position: fixed; }
+
+}
+@media only screen and (min-width: 768px) {
+.enter1{ padding:50px 5% 50px 15% ;}
+.enter2{ float: left; width: 40%; max-width: 330px; padding: 10px 0;}
+.enter_right{ display: inline-block;}
+
+/****************************开户中心****************************/
+.account{ height:450px; }
+.account1{ background: url(../images/account3.png) repeat;top: 50px;width: 300px; height: 294px; padding:30px 40px 10px; margin: 0 0 0 10%;}
+.account1 big,.ac_1,.ac_3,.account1 dt{ display: block;}
+
+.need{ clear: none;padding:10px 0; float: left; width: 48%; margin-right: 4%;}
+.need dt{font-size: 24px; font-weight: lighter;}
+.need dd{ width:28%; padding:0; margin-right: 8%;}
+.need dd em img{width: 100%;}
+.need.need_nr,.need dd.need_nr1{ margin-right: 0;}
+}
+@media only screen and (min-width: 960px) {
+.enter_right{ width:48%}
+
+
+/****************************开户中心****************************/
+.account1{ margin-left: 15%;}
+
+
+.need dd{ font-size: 16px;}
+.bank1 li{margin:0 10px 10px 0;}
+}
+@media only screen and (min-width: 1160px) {
+	
+}

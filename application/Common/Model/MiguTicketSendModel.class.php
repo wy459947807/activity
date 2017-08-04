@@ -13,8 +13,9 @@ class MiguTicketSendModel extends CommonModel{
     }
 
     public function dataList($params){
-        $this->sqlFrom = " cmf_migu_ticket_send ";              //数据库查询表
-        $this->sqlField = " * ";                            //数据库查询字段
+        $this->sqlFrom = " cmf_migu_ticket_send as a"
+                        ." left join cmf_migu_ticket as b on a.ticket_id=b.id ";
+        $this->sqlField = " a.*,b.name as ticket_name,b.img,b.type,b.price,b.code,b.start_time,b.end_time,b.is_time_limit ";                            //数据库查询字段
         $this->sqlWhere = " (1=1) ";                        //数据库查询条件
         $this->bindValues = array();
         
@@ -23,23 +24,32 @@ class MiguTicketSendModel extends CommonModel{
         if (!empty($params['pageLimit'])) $this->pageLimit = $params['pageLimit'];
 
         if (!empty($params['start_time'])) {
-            $this->sqlWhere .= " and  create_time > '%d' ";
+            $this->sqlWhere .= " and  a.create_time > '%d' ";
             $this->bindValues[] = strtotime($params['start_time']);
         }
 
         if (!empty($params['end_time'])) {
-            $this->sqlWhere .= " and  create_time < '%d' ";
+            $this->sqlWhere .= " and  a.create_time < '%d' ";
             $this->bindValues[] = strtotime($params['end_time']);
         }
         
         if (!empty($params['status'])) {
-            $this->sqlWhere .= " and  status = '%d' ";
+            $this->sqlWhere .= " and  a.status = '%d' ";
             $this->bindValues[] = $params['status'];
         }
         
-
+        if (!empty($params['type'])) {
+            $this->sqlWhere .= " and  b.type = '%d' ";
+            $this->bindValues[] = $params['type'];
+        }
+        
+        if (!empty($params['user_id'])) {
+            $this->sqlWhere .= " and  a.user_id = '%d' ";
+            $this->bindValues[] = $params['user_id'];
+        }
+        
         if (!empty($params['keyword'])) {
-            $this->sqlWhere .= " and  (user_name like '%s' or mobile like '%s') ";
+            $this->sqlWhere .= " and  (a.user_name like '%s' or a.mobile like '%s') ";
             $this->bindValues[] = "%" . $params['keyword'] . "%";
             $this->bindValues[] = "%" . $params['keyword'] . "%"; 
         }

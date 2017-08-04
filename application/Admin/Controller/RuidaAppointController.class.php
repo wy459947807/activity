@@ -3,14 +3,14 @@ namespace Admin\Controller;
 
 use Common\Controller\AdminbaseController;
 
-class MiguTicketController extends AdminbaseController{
+class RuidaAppointController extends AdminbaseController{
     
 	
-        protected $MiguTicket;
+        protected $RuidaAppoint;
 	
 	public function _initialize() {
             parent::_initialize();
-            $this->MiguTicket = D("Common/MiguTicket");
+            $this->RuidaAppoint = D("Common/RuidaAppoint");
                
 	}
 	
@@ -19,7 +19,7 @@ class MiguTicketController extends AdminbaseController{
             $params = I('post.');
             $params['page'] = I('get.p', 1, 'intval'); //获取页码
             $params['pageLimit'] = 20;
-            $dataList = $this->MiguTicket->dataList($params);
+            $dataList = $this->RuidaAppoint->dataList($params);
             $page = $this->page($dataList['data']['pageInfo']['num'], $params['pageLimit']);
             $this->assign("formget", $params);
             $this->assign("page", $page->show('Admin'));
@@ -33,11 +33,11 @@ class MiguTicketController extends AdminbaseController{
                 $params = I('post.');  
                 //$params['intro'] = htmlspecialchars_decode($params['intro']);
                 //$params['detail'] = htmlspecialchars_decode($params['detail']);
-                $retInfo = $this->MiguTicket->dataUpdate($params);
+                $retInfo = $this->RuidaAppoint->dataUpdate($params);
                 $this->ajaxReturn($retInfo);
             } else {
                 $id = I('get.id', 0, 'intval');
-                $dataInfo = $this->MiguTicket->where(array("id" => $id))->find();
+                $dataInfo = $this->RuidaAppoint->where(array("id" => $id))->find();
                 $this->assign($dataInfo);
                 $this->display();
             }
@@ -45,7 +45,7 @@ class MiguTicketController extends AdminbaseController{
         
         public function detail() {
             $id = I('get.id', 0, 'intval');
-            $dataInfo = $this->MiguTicket->where(array("id" => $id))->find();
+            $dataInfo = $this->RuidaAppoint->where(array("id" => $id))->find();
             $this->assign($dataInfo);
             $this->display();
         }
@@ -56,7 +56,7 @@ class MiguTicketController extends AdminbaseController{
             if(IS_POST){
                 $ids = I('post.ids/a');
                 if(!empty($ids)){
-                    if ($this->MiguTicket->where(array('id' => array('in', $ids)))->delete() !== false) {
+                    if ($this->RuidaAppoint->where(array('id' => array('in', $ids)))->delete() !== false) {
                         $this->ajaxReturn(array( "status" => 200, "msg" => "操作成功！","data" => ""));
                     } else {
                         $this->ajaxReturn(array( "status" => 500, "msg" => "操作失败！","data" => ""));
@@ -71,7 +71,7 @@ class MiguTicketController extends AdminbaseController{
                 $ids = I('post.ids/a');
                 $status= I('post.status/d', 2); //获取状态
                 if(!empty($ids)){
-                    if ($this->MiguTicket->where(array('id' => array('in', $ids)))->save(array('status' => $status)) !== false) {
+                    if ($this->RuidaAppoint->where(array('id' => array('in', $ids)))->save(array('status' => $status)) !== false) {
                         $this->ajaxReturn(array( "status" => 200, "msg" => "操作成功！","data" => ""));
                     } else {
                         $this->ajaxReturn(array( "status" => 500, "msg" => "操作失败！","data" => ""));

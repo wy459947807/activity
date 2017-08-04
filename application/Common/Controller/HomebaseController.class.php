@@ -306,6 +306,6 @@ class HomebaseController extends AppframeController {
 			C("TMPL_ACTION_ERROR",$defaultjump);
 		}
 	}
-	
+
 	
 }

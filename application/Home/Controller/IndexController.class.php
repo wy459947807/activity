@@ -25,7 +25,7 @@ class IndexController extends HomebaseController {
     //首页
     public function index() {
     	//echo "ddd";
-        $this->display();
+        $this->display();        
     }
     
     //获取单个问题

@@ -102,7 +102,7 @@
                     <td><?php echo date("Y-m-d H:i:s",$vo['create_time']);?></td>
                     <td>
                         <a href="<?php echo U('MiguTicket/update',array('id'=>$vo['id']));?>">修改</a> | 
-                       
+                        
                         <a href="javascript:void(0)" onclick="deleteInfo(<?php echo ($vo["id"]); ?>)">删除</a> 
                     </td>
                 </tr><?php endforeach; endif; ?>
@@ -110,7 +110,7 @@
         </table>
             
         <div class="table-actions">
-           
+            
             <button class="btn btn-primary btn-small js-ajax-submit"  type="submit" data-action="<?php echo U('MiguTicket/deleteInfo');?>" data-subcheck="true"  data-msg="你确定删除吗？">批量删除</button>
         </div>
   
