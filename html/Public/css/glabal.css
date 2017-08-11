@@ -449,7 +449,7 @@ a:hover{text-decoration: none;}
 .l_home_nav{height:80px; border-top:1px solid #ccc;background:white;}
 .l_home_nav .nav_warp{width: 1380px;margin: 0 auto;}
 .l_home_nav ul{padding: 10px 0;overflow: hidden;}
-.l_home_nav li{float:left;border-right: 1px solid #dadada;width: 106px;text-align: center;}
+.l_home_nav li{float:left;border-right: 1px solid #dadada;width: 98px;text-align: center;}
 .l_home_nav li a{ display: inline-block;color: #000;line-height: 31px; }
 .l_home_nav li:first-child{width: auto;}
 .l_home_nav li:first-child a{line-height: 62px;padding: 0 20px;}

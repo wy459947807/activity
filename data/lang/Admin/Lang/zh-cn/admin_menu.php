@@ -36,6 +36,7 @@ return array (
   'ADMIN_MENU_INDEX' => '后台菜单',
   'ADMIN_MENU_LISTORDERS' => '后台菜单排序',
   'ADMIN_MENU_RESTORE_MENU' => '还原菜单',
+  'ADMIN_MIGUSUBSCRIBE_INDEX' => '订阅列表',
   'ADMIN_MIGUTICKET_DEFAULT' => '咪咕阅读',
   'ADMIN_MIGUTICKET_INDEX' => '优惠券',
   'ADMIN_MIGUTICKETSEND_INDEX' => '发放列表',

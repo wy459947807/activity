@@ -51,10 +51,9 @@
     <?php $statusArray=array(1=>"未使用",2=>"已使用"); $typeArray=array(1=>"线上优惠券",2=>"线下优惠券"); ?>
     <div class="wrap js-check-wrap">
         <ul class="nav nav-tabs">
-            <li class="active"><a href="<?php echo U('MiguTicketSend/index');?>">优惠券列表</a></li>
-            <li><a href="<?php echo U('MiguTicketSend/update');?>">添加优惠券</a></li>
+            <li class="active"><a href="<?php echo U('MiguTicketSend/index',array('mobile'=>$formget['mobile']));?>">优惠券列表</a></li>
         </ul>
-        <form class="well form-search" method="post" action="<?php echo U('MiguTicketSend/index');?>"> 
+        <form class="well form-search" method="post" action="<?php echo U('MiguTicketSend/index',array('mobile'=>$formget['mobile']));?>"> 
             状态：
             <select name="status">
                 <option value="0">请选择</option>
@@ -73,7 +72,7 @@
             关键字： 
             <input type="text" name="keyword" style="width: 200px;" value="<?php echo ((isset($formget["keyword"]) && ($formget["keyword"] !== ""))?($formget["keyword"]):''); ?>" placeholder="请输入关键字...">
             <input type="submit" class="btn btn-primary" value="搜索" />
-            <a class="btn btn-danger" href="<?php echo U('MiguTicketSend/index');?>">清空</a>
+            <a class="btn btn-danger" href="<?php echo U('MiguTicketSend/index',array('mobile'=>$formget['mobile']));?>">清空</a>
         </form>
 
         

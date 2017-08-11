@@ -2,7 +2,7 @@
 
 namespace Home\Controller;
 use Common\Controller\HomebaseController;
-
+use Common\Lib\AppPay\wechat\AppWechatPay;
 
 /**
  * 首页
@@ -10,10 +10,13 @@ use Common\Controller\HomebaseController;
 class TianyiController extends HomebaseController {
 
     protected $TianyiOrder;
+    protected $TianyiMonthly;
     
     public function _initialize() {
         parent::_initialize();
         $this->TianyiOrder = D("Common/TianyiOrder");
+        $this->TianyiMonthly = D("Common/TianyiMonthly");
+        
     }
     //首页
     public function index() {
@@ -32,13 +35,19 @@ class TianyiController extends HomebaseController {
         );
         $dataList=$this->remoteCourseList($dataInfo);
         
-        foreach($dataList['data']['list'] as $key=>$val){
-            $dataList['data']['list'][$key]["order_sn"]="";
-            $orderInfo=$this->TianyiOrder->where(array("user_id" =>$this->params['user_id'],"course_id"=>$val['id']))->find();
-            if(!empty($orderInfo)){
-                $dataList['data']['list'][$key]["order_sn"]=$orderInfo['order_sn'];
+        if(empty($dataList['data']['count'])){
+           $dataList['data']=null; 
+        }else{
+            foreach($dataList['data']['list'] as $key=>$val){
+                $dataList['data']['list'][$key]["order_sn"]="";
+                $orderInfo=$this->TianyiOrder->where(array("user_id" =>$this->params['user_id'],"course_id"=>$val['id']))->find();
+                if(!empty($orderInfo)){
+                    $dataList['data']['list'][$key]["order_sn"]=$orderInfo['order_sn'];
+                }
             }
         }
+        
+       
 
         $this->ajaxReturn(200,"成功！",$dataList['data']);
     }
@@ -170,6 +179,95 @@ class TianyiController extends HomebaseController {
         $rt.="f0326e9a9e36420eb15e9e0c4544dc80";
         return md5($rt);
     }*/
+    
+
+    //判断用户是否包月
+    public function isMonthly(){
+        $rules = array(
+            array('user_id','require','user_id不得为空！',1,'regex',3),
+        );
+        //file_put_contents("postData.txt", json_encode($this->params));
+        $this->checkField($rules, $this->params);//验证字段
+        $dataArray=array(
+            "user_id"=>$this->params['user_id'],
+            "status"=>2,
+        );
+        $orderInfo= $this->TianyiMonthly ->where($dataArray)->find();
+        if(empty($orderInfo)){
+            $this->ajaxReturn(500,"您还没有订阅！",array());
+        }
+        
+        if($orderInfo['end_time']< time()){
+            $this->ajaxReturn(500,"您的订阅已经过期！",array());
+        }
+        
+        $this->ajaxReturn(200,"成功！",array());
+
+    }
+
+
+ //包月用户购买
+    public function  buyMonthlyWechat(){
+         //验证规则
+        $rules = array(
+            array('user_id','require','user_id不得为空！',1,'regex',3),
+            array('money','require','money不得为空！',1,'regex',3),
+            array('mobile','require','mobile不得为空！',1,'regex',3),
+            array('name','require','name不得为空！',1,'regex',3),
+        );
+        //file_put_contents("postData.txt", json_encode($this->params));
+        $this->checkField($rules, $this->params);//验证字段
+        $dataInfo= $this->TianyiMonthly ->dataUpdate($this->params);
+        $this->ajaxReturn($dataInfo['status'],$dataInfo['msg'],$dataInfo['data']);
+    }
+
+
+    //获取微信支付签名信息
+    public function wechatInfo(){
+        //验证规则
+        $rules = array(
+            array('token','require','token不得为空！',1,'regex',3),
+            array('body','require','body不得为空！',1,'regex',3),
+            array('orderNo','require','orderNo不得为空！',1,'regex',3),
+            array('total_fee','require','total_fee不得为空！',1,'regex',3),
+        );
+        
+        //file_put_contents("postData.txt", json_encode($this->params));
+        
+        $this->checkField($rules, $this->params);//验证字段
+        $config=C('app_pay_config.wechat');
+        $wechatPay=new AppWechatPay($config);
+        $dataInfo=$wechatPay->getWxPrepayid($this->params);
+        $this->ajaxReturn(200,"成功！",$dataInfo);
+    }
+    
+    
+    //微信支付回调接口
+    public function wechatNotify(){ 
+        $config=C('app_pay_config.wechat');
+        $wechatPay=new AppWechatPay($config);
+        $notifyInfo=$wechatPay->noify_cheack();
+
+        if($notifyInfo['status']==200){
+            //校验金额
+            $orderInfo = $this->TianyiMonthly->where(array("order_sn"=>$notifyInfo['data']['out_trade_no']))->find();
+            if($orderInfo['total_money']*100!=$notifyInfo['data']['total_fee']){
+                $this->show($wechatPay->returnInfo("FAIL", "订单金额校验失败！"), 'utf-8', 'text/xml');
+                exit;
+            }
+            $orderInfo['pay_type']=3;//支付类型
+            $dataUpdate=array(
+                "id"=>$orderInfo['id'],
+                "status"=>2,
+                "pay_type"=>1,
+            );
+            $this->TianyiMonthly ->dataUpdate($dataUpdate);//更新订单状态
+        }
+        $this->show($notifyInfo['msg'], 'utf-8', 'text/xml');
+        exit;
+    }
+    
+    
 
     
 }

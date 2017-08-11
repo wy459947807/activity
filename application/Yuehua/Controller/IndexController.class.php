@@ -28,10 +28,10 @@ class IndexController extends HomebaseController {
         $url = 'http://www.yuehua567.com/';
         $cacheKey=md5($url);
         
-        /*
+        
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
-        }*/
+        }
         
 
         $html = new \simple_html_dom();

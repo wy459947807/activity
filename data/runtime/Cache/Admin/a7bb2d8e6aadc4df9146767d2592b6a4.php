@@ -82,7 +82,7 @@
                     <th>类型</th>
                     <th>抵用金额</th>
                     <th>券码</th>
-                    <th>有效期</th>
+                  
                     <th>发券日期</th>
                     <th width="120">操作</th>
                 </tr>
@@ -98,22 +98,15 @@
                     <td><?php echo ($typeArray[$vo['type']]); ?></td>
                     <td><?php echo ($vo["price"]); ?></td>
                     <td><?php echo ($vo["code"]); ?></td>
-                    <td><?php echo date("Y-m-d",$vo['start_time']);?>&nbsp;至&nbsp;<?php echo date("Y-m-d",$vo['end_time']);?></td>
+                    <!--<td><?php echo date("Y-m-d",$vo['start_time']);?>&nbsp;至&nbsp;<?php echo date("Y-m-d",$vo['end_time']);?></td>-->
                     <td><?php echo date("Y-m-d H:i:s",$vo['create_time']);?></td>
                     <td>
-                        <a href="<?php echo U('MiguTicket/update',array('id'=>$vo['id']));?>">修改</a> | 
-                        
-                        <a href="javascript:void(0)" onclick="deleteInfo(<?php echo ($vo["id"]); ?>)">删除</a> 
+                        <a href="<?php echo U('MiguTicket/update',array('id'=>$vo['id']));?>">修改</a>
                     </td>
                 </tr><?php endforeach; endif; ?>
             </tbody>
         </table>
-            
-        <div class="table-actions">
-            
-            <button class="btn btn-primary btn-small js-ajax-submit"  type="submit" data-action="<?php echo U('MiguTicket/deleteInfo');?>" data-subcheck="true"  data-msg="你确定删除吗？">批量删除</button>
-        </div>
-  
+
         <div class="pagination"><?php echo ($page); ?></div>
         </form>
     </div>

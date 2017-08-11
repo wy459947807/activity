@@ -2226,5 +2226,8 @@ function authcode($string, $operation = 'DECODE', $key = '', $expiry = 0) {
              return $keyc.str_replace('=', '', base64_encode($result));
     }
 }
-		
 
+//计算相差月数
+function diffMonth($date1,$date2){
+    return (date("Y",$date1)-date("Y",$date2))*12+(date("m",$date1)-date("m",$date2));
+}

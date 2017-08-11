@@ -1,0 +1,97 @@
+<admintpl file="header" />
+</head>
+<body>
+    <php>
+        $statusArray=array(1=>"未支付",2=>"已支付",3=>"已取消");
+        $payArray=array(1=>"微信支付",2=>"天翼支付");
+    </php>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('TianyiMonthly/index')}">订单列表</a></li>
+            <li class="active"><a href="">订单详情</a></li>
+        </ul>
+        <form action="{:U('TianyiMonthly/update')}" method="post" class="form-horizontal js-ajax-forms" enctype="multipart/form-data">
+            <input type="hidden" value="{$id}" name="ids[]"/>
+            <div class="row-fluid">
+                <div class="span12">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th colspan="4" style='text-align: center' >订单信息</th>
+                        </tr>
+                        <tr>
+                            <th width="25%">订单编号</th>
+                            <td width="25%">{$order_sn}</td>
+                            <th>姓名</th>
+                            <td>{$name}</td>
+                           
+                        </tr>
+                        
+                         <tr>
+                            <th>手机号码</th>
+                            <td>{$mobile}</td>
+                            <th>到期时间</th>
+                            <td>{:date('Y-m-d H:i:s',$end_time)}</td>
+                        </tr>
+                      
+                        <tr>
+                            <th>订单总金额</th>
+                            <td>{$money}</td>
+                            <th>优惠金额</th>
+                            <td>{$minus_money}</td>
+                        </tr>
+                       
+                        <tr>
+                            <th width="25%">支付方式</th>
+                            <td width="25%">{$payArray[$pay_type]}</td>
+                            <th>实付金额</th>
+                            <td>{$total_money}</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th>购买总数量</th>
+                            <td>{$num}</td>
+                            <th>下单时间</th>
+                            <td>{:date('Y-m-d H:i:s',$create_time)}</td>
+                        </tr>
+                        
+        
+                        <tr>
+                            <th>订单状态</th>
+                            <td>{$statusArray[$status]}</td>
+                            <th>更新时间</th>
+                            <td>{:date('Y-m-d H:i:s',$update_time)}</td>
+                        </tr>
+                        
+                        
+                    </table>
+ 
+                </div>
+                
+            </div>
+            <div class="form-actions">
+                <if condition="$status eq 1">
+                    <button class="btn btn-primary " type="button"  onclick="updateOrder({$id},2)">设为已付款</button>
+                <else/>
+                    <button class="btn btn-primary " type="button"  onclick="updateOrder({$id},1)">设为未付款</button>
+                </if>
+                <button class="btn btn-primary " type="button"  onclick="updateOrder({$id},3)">取消订单</button>
+                <a class="btn" href="{:U('TianyiMonthly/index')}">返回</a>
+            </div>
+        </form>
+    </div>
+    <script src="__PUBLIC__/js/common.js"></script>
+
+    <script src="__PUBLIC__/js/layer/layer.js"></script>
+    <script src="__PUBLIC__/js/expand/Validform/5.3.2/Validform.min.js"></script>
+    <script src="__PUBLIC__/js/expand/strongWind.js"></script>
+
+    <script>
+        function updateOrder(id,status){
+            layer.confirm('你确定修改定单吗？', function(){
+                getRemoteData({ids:[id],status:status},"{:U('TianyiMonthly/updateStatus')}",1);
+            });
+        }
+    </script>
+</body>
+</html>

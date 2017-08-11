@@ -54,12 +54,12 @@ class MiguTicketModel extends CommonModel{
         $this->result['msg'] = "操作成功！";
         try {
             if(!empty($params['id'])){
-                $params['start_time']= strtotime($params['start_time']);
-                $params['end_time']= strtotime($params['end_time']);
+                $params['start_time']=!empty($params['start_time'])?strtotime($params['start_time']):0;
+                $params['end_time']= !empty($params['end_time'])?strtotime($params['end_time']):0;
                 $model->table(C('DB_PREFIX') . 'migu_ticket')->where(array("id" =>$params['id']))->save($params);
             }else{ 
-                $params['start_time']= strtotime($params['start_time']);
-                $params['end_time']= strtotime($params['end_time']);
+                $params['start_time']=!empty($params['start_time'])?strtotime($params['start_time']):0;
+                $params['end_time']= !empty($params['end_time'])?strtotime($params['end_time']):0;
                 $params['create_time']= time();
                 $model->table(C('DB_PREFIX') . 'migu_ticket')->add($params);
             }

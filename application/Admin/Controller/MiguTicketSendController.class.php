@@ -19,6 +19,8 @@ class MiguTicketSendController extends AdminbaseController{
             $params = I('post.');
             $params['page'] = I('get.p', 1, 'intval'); //获取页码
             $params['pageLimit'] = 20;
+            $params['mobile'] = I('get.mobile'); //获取手机号
+            $this->MiguTicketSend->ticketSend($params); //更新优惠券
             $dataList = $this->MiguTicketSend->dataList($params);
             $page = $this->page($dataList['data']['pageInfo']['num'], $params['pageLimit']);
             $this->assign("formget", $params);

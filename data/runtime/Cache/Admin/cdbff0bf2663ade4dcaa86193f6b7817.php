@@ -102,8 +102,8 @@
                             <th  width="150">是否有时间限制</th>
                             <td>
                                 <?php $radioSelect=!empty($is_time_limit)?$is_time_limit:1 ?>
-                                <input style="vertical-align:middle" name="is_time_limit" type="radio" value="1"  <?php if($radioSelect == 1): ?>checked="checked"<?php endif; ?> />无
-                                <input style="vertical-align:middle" name="is_time_limit" type="radio" value="2"  <?php if($radioSelect == 2): ?>checked="checked"<?php endif; ?> />有
+                                <label class="radio"><input style="vertical-align:middle" name="is_time_limit" type="radio" value="1"  <?php if($radioSelect == 1): ?>checked="checked"<?php endif; ?> />无</label>
+                                <label class="radio"><input style="vertical-align:middle" name="is_time_limit" type="radio" value="2"  <?php if($radioSelect == 2): ?>checked="checked"<?php endif; ?> />有</label>
                             </td>
                         </tr>
                         

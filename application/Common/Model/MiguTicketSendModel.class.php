@@ -48,6 +48,11 @@ class MiguTicketSendModel extends CommonModel{
             $this->bindValues[] = $params['user_id'];
         }
         
+        if (!empty($params['mobile'])) {
+            $this->sqlWhere .= " and  a.mobile = '%s' ";
+            $this->bindValues[] = $params['mobile'];
+        }
+        
         if (!empty($params['keyword'])) {
             $this->sqlWhere .= " and  (a.user_name like '%s' or a.mobile like '%s') ";
             $this->bindValues[] = "%" . $params['keyword'] . "%";
@@ -80,6 +85,57 @@ class MiguTicketSendModel extends CommonModel{
         }
         return $this->result;
     }
-
+    
+    //发券操作
+    public function ticketSend($params){
+        $subscribeInfo=D("Common/MiguSubscribe")->where(array("mobile"=>$params['mobile']))->find();//获取订阅详情
+        if(empty($subscribeInfo)) return false;
         
+        //已经退订
+        if($subscribeInfo['status']==2) return true;
+        
+        $totalMonth=diffMonth(time(),$subscribeInfo['sub_time']);
+        
+        
+        $stcktMonth=$totalMonth;
+        if(!empty($subscribeInfo['stckt_time'])){
+            $stcktMonth-=diffMonth($subscribeInfo['stckt_time'],$subscribeInfo['sub_time']);
+        }
+        
+        //更新普通优惠券
+        for($i=0;$i<$stcktMonth;$i++){
+            $TicketSendUpdate=array("mobile"=>$subscribeInfo['mobile'],"ticket_id"=>1);
+            D("Common/MiguTicketSend")->dataUpdate($TicketSendUpdate);
+        }
+
+        if(!empty($stcktMonth)) {
+            //更新发券日期
+            $subscribeUpdate=array("id"=>$subscribeInfo['id'],"stckt_time"=> time(),);
+            D("Common/MiguSubscribe")->dataUpdate($subscribeUpdate);
+        }
+        
+        
+        //更新订阅满半年后的优惠券
+        $hyearMonth=intval($totalMonth/6);
+
+        if(!empty($subscribeInfo['hyear_time'])){
+            $hyearMonth-=intval(diffMonth($subscribeInfo['hyear_time'],$subscribeInfo['sub_time'])/6);
+        }
+
+        //更新普通优惠券
+        for($i=0;$i<$hyearMonth;$i++){
+            $TicketSendUpdate=array("mobile"=>$subscribeInfo['mobile'],"ticket_id"=>2);
+            D("Common/MiguTicketSend")->dataUpdate($TicketSendUpdate);
+        }
+
+        if(!empty($hyearMonth)) {
+            //更新发券日期
+            $subscribeUpdate=array( "id"=>$subscribeInfo['id'],"hyear_time"=> time(),);
+            D("Common/MiguSubscribe")->dataUpdate($subscribeUpdate);
+        }
+        
+
+    }
+
+   
 }
