@@ -72,6 +72,10 @@ class HomebaseController extends AppframeController {
         */
         protected function ajaxReturn($status = 1, $msg = '', $data = '') {
             $status=($status==200)?1:0;
+            $data=!empty($data)?$data:null;
+            if(isset($data['list'])){
+                $data['list']=!empty($data['list'])?$data['list']:null;
+            }
             parent::ajaxReturn(array(
                 'status' => $status,
                 'msg' => $msg,

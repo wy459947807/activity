@@ -11,6 +11,8 @@ em{font-weight:normal; font-style:normal; }
 .c{clear: both; }
 input{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border: 0;outline: none;}
 /* 开户页面的样式开始 */
+.kh-title a{position: absolute; left: 15px; top: 13px;}
+.kh-title a img {height: 24px; }
 .kh-title h2{background-color: #f54337; height: 50px;line-height: 50px;font-size: 18px;font-weight: bold;color: #fff;text-align: center;}
 .kh-main{overflow: hidden;}
 .kh-nav{height: 48px;line-height: 48px;font-size: 16px;color: #212122;background-color: #fff;border-bottom: 5px solid #f1f1f1;}
@@ -33,7 +35,7 @@ input{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:bord
 .kh-content .item .kh-way{padding: 20px 15px;}
 .kh-content .kh-way h3{font-size: 18px;font-weight: normal;line-height: 1.4em;padding-bottom: 10px;} 
 .kh-content .kh-way p{font-size: 16px;color: #f54337;}
-.kh-content .kh-way p.last{margin-top: 10px;height: 38px;line-height: 38px;}
+.kh-content .kh-way p.last{margin-top: 10px;height: 38px;line-height: 38px;padding-bottom:48px;}
 .kh-content .kh-way p input{height: 38px;line-height: 38px; width: 60%;padding: 0 5px;font-size: 16px; border: 1px solid #dcdcdc;border-radius: 3px;vertical-align: middle;}
 .kh-content .kh-way p a{display: inline-block; height: 38px;line-height: 38px; width: 76px;text-align: center; background-color: #f54337;color: #fff;border-radius: 3px;margin-left: 4px;vertical-align: middle;text-decoration: none;}
 /* 开户入口页面 */

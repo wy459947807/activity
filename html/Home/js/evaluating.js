@@ -57,7 +57,8 @@
                 var self = $(this),
                     tip = self.parents('.result-box').find('.point-box');
                 tip.show();
-                tip.on('click',function(){
+                tip.on('touchend',function(e){
+					e.preventDefault();
                     $(this).hide();
                 })
             })

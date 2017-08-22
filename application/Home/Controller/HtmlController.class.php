@@ -17,11 +17,11 @@ class HtmlController extends HomebaseController {
     public function header(){
 
         $url = 'http://www.10jrw.com/';
-        $cacheKey=md5($url);
-        /*
+        $cacheKey=md5($url."header");
+        
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
-        }*/
+        }
         
 
         $html = new \simple_html_dom();
@@ -68,7 +68,7 @@ class HtmlController extends HomebaseController {
         $dataInfo['head']= $html->find('.l_home_nav', 0)->innertext;
         $html->clear();
 
-        //S($cacheKey,$listArray,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
+        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*1)); //设置缓存3天
         $this->ajaxReturn(200,"成功！",$dataInfo);
 
         /*
@@ -81,11 +81,11 @@ class HtmlController extends HomebaseController {
     
     public function footer(){
         $url = 'http://www.10jrw.com/';
-        $cacheKey=md5($url);
-        /*
+        $cacheKey=md5($url."footer");
+        
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
-        }*/
+        }
 
         $html = new \simple_html_dom();
         // 从url中加载
@@ -110,7 +110,7 @@ class HtmlController extends HomebaseController {
        
         $html->clear();
 
-        //S($cacheKey,$listArray,array('type'=>'file','expire'=>(3600*24)*3)); //设置缓存3天
+        S($cacheKey,$dataInfo,array('type'=>'file','expire'=>(3600*24)*1)); //设置缓存3天
         $this->ajaxReturn(200,"成功！",$dataInfo);
 
     }

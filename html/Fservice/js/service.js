@@ -3,6 +3,8 @@
 		init:function(){
 			$.service.account_tab();
 			$.service.subit_number();
+			$.service.know_ewm();
+			//$.service.see_ewm();
 		},
 		account_tab:function(){
 			$('.kh-nav li').click(function(){
@@ -27,7 +29,44 @@
 					}
 				},'json');
 			});
+		},
+		//识别二维码
+		know_ewm:function(){
+			var timeout;
+			$(".erweima-box").bind('touchstart', function (event) {
+				var self = $(this);
+				event.preventDefault();
+			    timeout = setTimeout(function() {
+			        var _url = self.attr("data-url");
+			        //alert(_url);
+			        layer.open({
+					    content: '识别图中的二维码'
+					    ,btn: ['确认', '取消']
+					    ,skin: 'footer'
+					    ,yes: function(index){
+					        window.location.href=_url;
+					    }
+					});
+					clearTimeout(timeout);
+			    }, 1000);
+			});
+			$(".erweima-box").bind('touchend', function (event) {
+			    clearTimeout(timeout);
+			});
 		}
+		// see_ewm:function(){
+		// 	var timeout;
+		// 	$(".wx-ewm").bind('touchstart', function (event) {
+		// 	    event.preventDefault();
+		// 	    timeout = setTimeout(function() {
+		// 		    window.location.href="images/ewm-3.png";
+		// 			clearTimeout(timeout);
+		// 	    }, 1000);
+		// 	});
+		// 	$(".wx-ewm").bind('touchend', function (event) {
+		// 	    clearTimeout(timeout);
+		// 	});
+		// }
 	};
 	$.service.init();
 })(jQuery);

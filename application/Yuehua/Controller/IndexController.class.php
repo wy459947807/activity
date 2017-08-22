@@ -24,13 +24,13 @@ class IndexController extends HomebaseController {
 
     //首页
     public function index() {
-
         $url = 'http://www.yuehua567.com/';
         $cacheKey=md5($url);
         
         
         if(!empty(S($cacheKey))){
             $this->ajaxReturn(200,"成功！",S($cacheKey));
+           
         }
         
 

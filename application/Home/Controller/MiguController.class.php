@@ -74,6 +74,7 @@ class MiguController extends HomebaseController {
         
         $subscribeInfo=$this->MiguSubscribe->where(array("mobile"=>$subArray['mobile']))->find();//获取订阅详情
         if(empty($subscribeInfo)){
+            $this->MiguTicketSend->dataUpdate(array("mobile"=>$subArray['mobile'],"ticket_id"=>1));//发优惠券
             $this->MiguSubscribe->dataUpdate($subArray);
         }else{
             $subArray['id']=$subscribeInfo['id'];
@@ -85,6 +86,7 @@ class MiguController extends HomebaseController {
                 $subArray['status']=1; 
                 $subArray['sub_time']= time();  
                 $subArray['unsub_time']= 0;  
+                $this->MiguTicketSend->dataUpdate(array("mobile"=>$subArray['mobile'],"ticket_id"=>1));//发优惠券
                 $this->MiguSubscribe->dataUpdate($subArray);//退订后重新订阅操作
             }
         }

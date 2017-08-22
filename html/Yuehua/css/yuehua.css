@@ -33,12 +33,14 @@ a img{transition: .3s; -ms-transition: .3s; -moz-transition: .3s; -webkit-transi
 .yelangsem_pages .thisclass a{color: #fff;}
 .yelangsem_pages li:hover{background: #f53232; border: 1px solid #f53232; color: #fff;}
 .yelangsem_pages li:hover a{color: #fff;}
+.yelangsem_pages li:nth-last-child(3){display: none;}
+.yelangsem_pages li:last-child{display: none;}
 /* 悦华视屏页开始 */
 .yhmarket-info{padding-bottom: 80px;overflow: hidden;}
 .article_c{background-color: #ffffff;padding:0 64px 15px;border-bottom:1px dashed #e5e5e5;}
 .article_c .tit{padding-top: 10px;background: #f0f0f0;margin:0 -64px;}
 .article_c .tit p{font-size: 32px;line-height: 100px;text-align:center;color:#f12121;font-weight: bold;}
-.article_c > img{max-width:700px;max-height: 380px;display: block;margin: 10px auto; }
+.article_c img{max-width:700px;display: block;margin: 10px auto; }
 .article_c .txt{padding: 20px 62px;border-bottom: 1px dashed #e5e5e5;}
 .article_c h1{color: #151515;font-size: 16px;}
 .article_c .txt .zuozhe{font-size: 14px;color: #999999;line-height: 32px;}
@@ -48,8 +50,8 @@ a img{transition: .3s; -ms-transition: .3s; -moz-transition: .3s; -webkit-transi
 .handle-box li{font-size: 14px;color: #999999;margin: 10px 0;}
 .handle-box li a{color: #272727;}
 /* 悦华主页样式开始 */
-.yh-main{padding: 10px 0 80px;}
-.yh-main .g-tit{padding: 20px 0 10px;}
+.yh-main{padding: 0 0 80px;}
+.yh-main .g-tit{padding: 0 0 10px;}
 .yh-main .g-tit h1{font-size: 32px;text-align: center; line-height: 50px;color: #020607;}
 .yh-main .video-box{width: 100%;height: 675px;}
 .yh-main .video-box img{display: block;width: 100%;height: 100%;}

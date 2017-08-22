@@ -23,7 +23,6 @@
 					index ++;
 					$.yh.show_course(index);
 				}else{
-					layer.msg('只能看最近8期内容');
 					return !1;
 				}
 			});
@@ -32,7 +31,6 @@
 					index --;
 					$.yh.show_course(index);
 				}else{
-					layer.msg('只能看最近8期内容');
 					return !1;
 				}
 			})
